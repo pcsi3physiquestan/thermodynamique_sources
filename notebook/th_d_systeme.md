@@ -27,7 +27,7 @@ Un système thermodynamique n'a pas forcément de frontière matérielle et n'es
 Isoler mentalement ne signifie pas laisser de côté le milieu extérieur. Celui-ci peut en effet être en interaction avec le système thermodynamique.
 
 
-````{important} __Définition : Tyopologie des systèmes __
+````{important} __Définition : Typologie des systèmes__
 
 On distingue trois types de systèmes suivant les échanges qu'il peut faire avec le milieu extérieur:
 

@@ -32,7 +32,7 @@ Pour un système dynamique, on appelle __microétat__ un état du système décr
 ````
 
 
-__Etude statistique__  
+__Etude statistique :__  
 On ne peut décrire de manière exhaustive un microétat (on rappelle qu'une mole de gaz contient...  $10^{23}$ molécules/atomes... )
 
 On peut par contre décrire la __statistique__ des différentes grandeurs associées à chaque particules.
@@ -74,36 +74,35 @@ Une système est isotrope si __aucune direction dans l'espace n'est privilégié
 1. Exprimer l'énergie cinétique moyenne par particule lié à la translation des particules. En déduire une utilité de la vitesse quadratique moyenne. On supposera que toutes les particules sont identiques.
 ````
 
-````{dropdown} Démonstration
-__Statistique et équilibre__  
-Pour un système à l'équilibre, les vitesses et positions de chaque particule peuvent changer mais la statistique de chaque grandeurs sera __constante__.
-
-__Statistique et isotropie__  
-Les statistiques des trois composantes doivent être __identiques__ puisqu'aucune direction n'est privilégiée. De plus il y aura autant de particules qui possède la composante $v_x$ que de particules qui possèdent la composante $-v_x$. Il vient que la valeur moyenne de chaque composante est __nulle__.
-
-Les statistiques du carré des composantes sont aussi identiques. Notons que la valeur moyenne n'est cette fois pas nulle puisqu'on somme des valeurs positives. Par contre $\overline{v_x^2} = \overline{v_y^2} = \overline{v_z^2}$
-
-On peut calculer la vitesse quadratique moyenne:
-
-\begin{align*}
+>Démonstration
+>__Statistique et équilibre :__  
+>Pour un système à l'équilibre, les vitesses et positions de chaque particule peuvent changer mais la statistique de chaque grandeurs sera __constante__.
+>
+>__Statistique et isotropie :__  
+>Les statistiques des trois composantes doivent être __identiques__ puisqu'aucune direction n'est privilégiée. De plus il y aura autant de particules qui possède la composante $v_x$ que de particules qui possèdent la composante $-v_x$. Il vient que la valeur moyenne de chaque composante est __nulle__.
+>
+>Les statistiques du carré des composantes sont aussi identiques. Notons que la valeur moyenne n'est cette fois pas nulle puisqu'on somme des valeurs positives. Par contre $\overline{v_x^2} = \overline{v_y^2} = \overline{v_z^2}$
+>
+>On peut calculer la vitesse quadratique moyenne:
+>
+>\begin{align*}
 u^2 &= \frac{1}{N}\sum\limits_{i=1}^{N}v_{xi}^2 + v_{yi}^2 + v_{zi}^2\\
 &= \overline{v_{xi}^2} + \overline{v_{yi}^2} + \overline{v_{zi}^2}\\
 &= 3 \overline{v_{xi}^2} = 3 \overline{v_{yi}^2} = 3 \overline{v_{zi}^2}\\
 \end{align*}
-
-
-__Vitesse et énergie__  
-Le calcul de l'énergie cinétique par particule se fait en sommant toutes les énergiés cinétiques des particules (uniquement la partie liée à la translation, on ne s'intéresse pas ici à la rotation des particules ou aux vibrations internes (liaisons intra-moléculaires)) et en divisant par N:
-
-\begin{align*}
+>
+>
+>__Vitesse et énergie :__  
+>Le calcul de l'énergie cinétique par particule se fait en sommant toutes les énergiés cinétiques des particules (uniquement la partie liée à la translation, on ne s'intéresse pas ici à la rotation des particules ou aux vibrations internes (liaisons intra-moléculaires)) et en divisant par N:
+>
+>\begin{align*}
 \overline{E_c} &= \frac{1}{N} \sum\limits_{i=1}^{N}E_{ci}\\
 &= \frac{1}{N} \sum\limits_{i=1}^{N}\frac{1}{2}m v_i^2\\
 &= \frac{1}{2}m \overline{v^2}\\
 &= \frac{1}{2}m u^2
 \end{align*}
-On observe l'intérêt de la vitesse quadratique moyenne: elle est directement liée à l'énergie cinétique moyenne des particules. Nous verrons que cela a son importance lorsqu'on relie les grandeurs macroscopiques et microscopiques.
+>On observe l'intérêt de la vitesse quadratique moyenne: elle est directement liée à l'énergie cinétique moyenne des particules. Nous verrons que cela a son importance lorsqu'on relie les grandeurs macroscopiques et microscopiques.
 
-````
 
 ## Echelle macroscopique: Variables d'état
 
@@ -120,13 +119,13 @@ T (Température), P (Pression), V (Volume), n (nombre de mole), q (charge)...
 ````
 
 
-__Variables d'état et chemin parcouru__  
+__Variables d'état et chemin parcouru :__  
 Un variable d'état ne dépend que de l'état du système. Donc sa variation d'un état A à un état B __ne dépend que des états A et B et pas du chemin parcouru entre les deux.__ A l'image de l'énegie (cinétique, potentielle ou mécanique), on notera leurs variations $\Delta T$ (transformation finie) ou dT (transformation infinitésimale).
 
 
 ````{dropdown} Remarque
 
-__Représentations graphiques__  
+__Représentations graphiques :__  
 Très souvent, nos systèmes ne "bougent" pas. Le passage d'un état A à un état B n'est pas représenté par une trajectoire dans l'espace. Néanmoins, les représentations graphiques sont souvent très utiles pour comprendre les phénomènes. C'est pourquoi, on représentera l'évolution du système dans des diagrammes spécifiques où l'on représente les grandeurs (certaines) qui varient. Par exemple, si P et T varient, on peut représenter les états A et B et le chemin parcouru pour aller de A à B dans un diagramme...  (T,P). Nous verrons par la suite plusieurs diagrammes utile et les informations qu'on peut tirer des trajectoires dans ces diagrammes.
 ````
 
@@ -170,7 +169,7 @@ Une grandeur est dite intensive si sa valeur considérée pour une portion de vo
 ## Grandeurs molaires et massiques
 
 
-__Rapport de grandeurs extensives__  
+__Rapport de grandeurs extensives :__  
 Le rapport de deux grandeurs extensives est une __grandeur intensive__. Par exemple, la masse volumique m/V est une grandeur intensive.
 
 Cette observation permet de définir les grandeurs molaires et massiques
@@ -201,22 +200,21 @@ Un des intérêts des grandeurs molaires et massiques est qu'elles ne dépendent
 1. On considère maintenant l'équation d'état d'un gaz de Van der Waals donnée comme $(P - \frac{a^2}{V_m^2})(V_m - b) = RT$ où $V_m$ est le volume molaire. Etablir l'équation de Van der Waals pour un volume V et un nombre de mole n.
 ````
 
-````{dropdown} Démonstration
-
-__1. De l'extensif vers l'intensif.__  
-
-Pour obtenir des grandeurs massiques, il faut diviser par la masse. Il vient $P v = \frac{n}{m}RT$ soit $Pv = \frac{RT}{M}$.
-
-Pour obtenir des grandeurs molaires, il faut divier par le nombre de moles. Il vient $PV_m = RT$.
- 
-
-__2. De l'intensif vers l'extensif.__  
-
-On va remplacer le volume molaire $V_m$ par $V/n$ soit:
-
-\begin{align*}
+>Démonstration
+>
+>__1. De l'extensif vers l'intensif.__  
+>
+>Pour obtenir des grandeurs massiques, il faut diviser par la masse. Il vient $P v = \frac{n}{m}RT$ soit $Pv = \frac{RT}{M}$.
+>
+>Pour obtenir des grandeurs molaires, il faut divier par le nombre de moles. Il vient $PV_m = RT$.
+> 
+>
+>__2. De l'intensif vers l'extensif.__  
+>
+>On va remplacer le volume molaire $V_m$ par $V/n$ soit:
+>
+>\begin{align*}
 (P - \frac{n^2 a^2}{V})(\frac{V}{n} - b) &= RT\\
 (P - \frac{n^2 a^2}{V})(V - nb) &= nRT
 \end{align*} 
-````
 

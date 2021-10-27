@@ -65,28 +65,25 @@ On peut montrer que la température dans le tube en régime permanent suit la lo
 Estimer un ordre de grandeur de taille pour chaque échelle. On supposera que L = 1m
 
 ````
-````{dropdown} Démonstration
-
- 
-
-
-__Tailles caractéristiques des différentes échelles__  
-* Echelle macroscopique: C'est le système entier. Sa taille caractéristique est donc $\Delta x = L$
-* Echelle microscopique: La taille caractéristique est la distance intermoléculaire: $\delta x \approx 10^{-9} \rm{m}$
-* Echelle mésoscopique: On ne définit pas de taille précise, mais pour qu'elle ait un sens, il faut pouvoir choisir une taille caractéristiques telle que $dx \gg \delta x$ et $dx \ll \Delta x$. Ici c'est possible car les ordres de grandeur entre les deux sont grands.
-
-La taille des capteurs de température étant de l'ordre du millimètre (moins pour certains capteurs très précis), une échelle de l'ordre de quelques micromètres est acceptable.
-
-
-On peut généraliser cela: la définition de l'échelle mésoscopique est valable tant que les variations des grandeurs macroscopiques sont très supérieures aux dimensions de l'échelle microscopique. Dans toute les études que nous ferons par la suite, y compris en électromagnétisme, nous supposerons cette condition toujours vérifiée.
-
-
-
-En général, nous étudions un système thermodynamique à une échelle macroscopique soit:
-
-* en le découpant en de multiples morceaux mésoscopiques: cela revient à étudier des fonctions (scalaires en thermodynamiques, scalaires ET vectorielles en électromagnétisme) de l'espace qu'on supposera continues, la plupart du temps dérivables et qui décrivent les grandeurs macroscopiques du système. Nous l'avons déjà fait en statique des fluides
-* soit en le prenant dans son ensemble. Cela est possible lorsque les grandeurs macroscopiques (les __variables d'état)__ sont homogène. Le système est alors __à l'équilibre__.
-
-
-````
+>Démonstration
+>
+> 
+>
+>
+>__Tailles caractéristiques des différentes échelles__  
+>* Echelle macroscopique: C'est le système entier. Sa taille caractéristique est donc $\Delta x = L$
+>* Echelle microscopique: La taille caractéristique est la distance intermoléculaire: $\delta x \approx 10^{-9} \rm{m}$
+>* Echelle mésoscopique: On ne définit pas de taille précise, mais pour qu'elle ait un sens, il faut pouvoir choisir une taille caractéristiques telle que $dx \gg \delta x$ et $dx \ll \Delta x$. Ici c'est possible car les ordres de grandeur entre les deux sont grands.
+>
+>La taille des capteurs de température étant de l'ordre du millimètre (moins pour certains capteurs très précis), une échelle de l'ordre de quelques micromètres est acceptable.
+>
+>
+>On peut généraliser cela: la définition de l'échelle mésoscopique est valable tant que les variations des grandeurs macroscopiques sont très supérieures aux dimensions de l'échelle microscopique. Dans toute les études que nous ferons par la suite, y compris en électromagnétisme, nous supposerons cette condition toujours vérifiée.
+>
+>
+>
+>En général, nous étudions un système thermodynamique à une échelle macroscopique soit:
+>
+>* en le découpant en de multiples morceaux mésoscopiques: cela revient à étudier des fonctions (scalaires en thermodynamiques, scalaires ET vectorielles en électromagnétisme) de l'espace qu'on supposera continues, la plupart du temps dérivables et qui décrivent les grandeurs macroscopiques du système. Nous l'avons déjà fait en statique des fluides
+>* soit en le prenant dans son ensemble. Cela est possible lorsque les grandeurs macroscopiques (les __variables d'état)__ sont homogène. Le système est alors __à l'équilibre__.
 

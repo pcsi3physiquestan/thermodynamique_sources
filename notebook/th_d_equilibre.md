@@ -26,15 +26,17 @@ Dans un état d'équilibre, les variables d'état sont indépendantes du temps. 
 ````
 
 
-__Echelle microscopique__  
+```{dropdown} __Echelle microscopique :__  
 S'il n'y a pas de mouvement macroscopique interne, il y a quand même un mouvement des particules: il correspond à l'agitation moléculaire. On peut rapprocher l'équilibre thermodynamique de l'équilibre dynamique en chimie (ce dernier est d'ailleurs un cas particulier de l'équilibre thermodynamique).
 
 Par contre, à l'équilibre, la statistique des grandeurs microscopiques est supposée constante.
+```
 
 
 
-__Durée d'un état d'équilibre__  
+```{dropdown} __Durée d'un état d'équilibre :__  
 Un équilibre thermodynamique n'est pas indépendant de la durée d'observation: on peut ainsi étudier un mélange d'eau et de glace dans une enceinte à l'équilibre pendant plusieurs minutes et le considérer comme un équilibre. Au bout de quelques heures en plein été, la glace aura fondu... 
+```
 
 
 ## Equation d'état
@@ -58,7 +60,7 @@ Nous avons aussi précédemment donné le modèle de Van der Waals pour les gaz.
 ````
 
 
-__Equation d'état énergétique__  
+__Equation d'état énergétique :__  
 L'énergie d'un système thermodynamique est une variable d'état ou plus souvent une fonction d'état, c'est-à-dire une grandeur d'état qui s'exprime en fonction des variables d'état choisies indépendantes.
 
 L'équation donnant l'énergie en fonction des variables d'état est en général appelée équation d'état énergétique.

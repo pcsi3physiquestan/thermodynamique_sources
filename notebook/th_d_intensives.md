@@ -24,7 +24,7 @@ kernelspec:
 Soit un système dont l'entropie est notée S, l'énergie interne U et le volume V. On définit la température du système par la grandeur:
 
 \begin{equation}
-{\left(\frac{\partial U}{\partial S}\right)}_{V}
+T = {\left(\frac{\partial U}{\partial S}\right)}_{V}
 \end{equation}
 ````
 
@@ -51,13 +51,12 @@ On rappelle que cette interprétation permet de relier la température à la vit
 
 
 
-__Equivalence__  
+__Equivalence :__  
 L'équivalence entre la définition thermodynamique de la température et son interprétation cinétique est admise.
 
 
-````{dropdown} Remarque
+````{dropdown} Remarque : __Thermalisation__  
 
-__Thermalisation__  
 On remarquera que le passage des aspects microscopiques à la notion de température fait "perdre" de l'information. On a en effet accès la valeur moyenne de la vitesse quadratique et non à sa statistique.
 
 Considérons par exemple deux gaz parfaits aux températures $T_1$ et $T_2$ contenus dans deux enceintes séparées par une paroi amovible. On peut calculer l'énergie cinétique moyenne par particule du système composé des deux gaz etlui associer une "température cinétique":
