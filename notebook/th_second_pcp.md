@@ -16,7 +16,7 @@ kernelspec:
 # Second principe
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Définir un système fermé et établir pour ce système un bilan entropique.
 * Relier l'existence d'une entropie créée à une ou plusieurs causes physiques d'irréversibilité.
 * Utiliser l'expression de la fonction d'état entropie.

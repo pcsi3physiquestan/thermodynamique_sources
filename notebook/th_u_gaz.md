@@ -36,21 +36,18 @@ D'un point de vue microscopique, la nécessité d'une basse pression peut être 
 
 ### Mélange de gaz et pression partielle
 
-````{admonition} Définition : Pression partielle
-:class: tip
+````{important} __Définition : Pression partielle__
 
 Quand plusieurs gaz parfaits sont mélangés et à l'équilibre, on définit la pression partielle des gaz comme la pression qu'il auraient s'ils étaient seuls dans l'enceinte.
 
 ````
 
-````{admonition} Fondamental : Pression partielle et équation d'état
-:class: attention
+````{important} __Fondamental : Pression partielle et équation d'état__
 
 Dans un mélange de gaz parfaits, la pression partielle $P_r$ du gaz est reliée à la température et au volume du système par l'équation d'état des gaz parfait $P_r V = nRT$.
 ````
 
-````{admonition} Fondamental : Pression totale
-:class: attention
+````{important} __Fondamental : Pression totale__
 
 La pression totale est la somme des pressions partielles de chaque gaz.
 ````
@@ -107,8 +104,7 @@ Autrement dit, pour une température et un volume donné, la pression moléculai
 Nous allons étudier les gaz par leur comportement à l'échelle microscopique. Cela permettra d'expliquer par des phénomènes microscopiques l'équation d'état des gaz parfait. Pour faire cette étude, nous devons distinguer deux types d'hypothèses: les premières sont générales à la théorie cinétique des gaz et les secondes sont propres à l'étude d'un gaz parfait.
 
 
-````{admonition} Fondamental : Hypothèse de la théorie cinétique des gaz.
-:class: attention
+````{important} __Fondamental : Hypothèse de la théorie cinétique des gaz.__
 
 * Le gaz est à l'équilibre thermodynamique: la répartition des grandeurs macroscopiques extensives est donc homogène et constante dans tout le gaz.
 * Il y a à l'échelle microscopique un chaos moléculaire c'est-à-dire que les molécules ont un mouvement incessant et désordonné: il est sans cesse modifié par des chocs avec d'autres molécules. Les vitesses et positions sont alors distribuées aléatoirement.
@@ -135,8 +131,7 @@ Ces hypothèses ont quelques conséquences sur l'étude des gaz. On rappelle qu'
 A l'échelle microscopique, le modèle du gaz parfait monoatomique est décrit par trois hypothèses.
 
 
-````{admonition} Définition : Modèle du gaz parfait monoatomique
-:class: tip
+````{important} __Définition : Modèle du gaz parfait monoatomique__
 
 * Dans un gaz parfait, __les seuls interactions qui existent sont des forces de contact au moment des chocs__, soit entre particules, soit entre une particule et la paroi. Les interactions à longues distances, notamment entre particules sont négligées.
 * On suppose de plus que __les chocs sont tous élastiques__, c'est-à-dire que l'énergie cinétique des deux particules qui s'entrechoquent ou du système {particule+paroi} est conservée au cours du mouvement.
@@ -237,8 +232,7 @@ Il vient: $P = \frac{N}{6V} u dt dS \frac{2mu}{dt dS} = \frac{N}{3V} m u^2$
 
 ### Approche microscopique: Equation d'état des gaz parfait
 
-````{admonition} Fondamental : Pression cinétique
-:class: attention
+````{important} __Fondamental : Pression cinétique__
 
 Sous les hypothèses de la théorie cinétique et du gaz parfait, la pression cinétique est reliée à la vitesse quadratique moyenne:
 
@@ -250,8 +244,7 @@ _Rappel : Température cinétique_
 On rappelle que la vitesse quadratique moyenne est reliée à la température par $\frac{3}{2}k_B T = \frac{1}{2}m u^2$.
 
 
-````{admonition} Fondamental : Equation d'état des gaz parfait.
-:class: attention
+````{important} __Fondamental : Equation d'état des gaz parfait.__
 
 L'équation d'état d'un gaz parfait monoatomique est: $PV = Nk_B T = nRT$. Elle se démontre à partir de l'expression de la pression cinétique et de la température cinétique.
 ````
@@ -275,8 +268,7 @@ dU(T,V) = C_V(T,V) dT + {\left(\frac{\partial U}{\partial V}\right)}(T,V)_T dV
 On a choisi ici d'exprimer U comme une fonction de T et V. Ce sera souvent le cas dans les premiers temps mais il faut savoir qu'on peut aussi exprimer U comme une fonction de S et V. Les dérivées partielles sont alors différentes (on pourra remarquer qu'il s'agit alors de la température et de la pression).
 
 
-````{admonition} Fondamental : Première loi de Joule
-:class: attention
+````{important} __Fondamental : Première loi de Joule__
 
 L'énergie interne d'un gaz parfait __ne dépend que de la température__: $U(T,V) = U(T)$. Sa différentielle s'écrit: $dU = C_V(T) dT$.
 
@@ -309,8 +301,7 @@ dH(T,P) = C_P(T,P) dT + {\left(\frac{\partial H}{\partial P}\right)}(T,P)_T dP
 On a choisi ici d'exprimer H comme une fonction de T et P alors qu'on a exprimé U comme une fonction de T et V. On aurait très bien pu exprimer H comme une fonction de T et V mais comme on le verra par la suite, il est préférable d'exprimer H(T,P) plutôt que H(T,V) à cause de l'utilisation faite de H. De même, il arrive qu'on préfère écrire H(S,P) mais nous nous servirons peu de cette vision de l'enthalpie.
 
 
-````{admonition} Fondamental : Deuxième loi de Joule
-:class: attention
+````{important} __Fondamental : Deuxième loi de Joule__
 
 L'enthalpie d'un gaz parfait __ne dépend que de la température__: $H(T,P) = H(T)$. Sa différentielle s'écrit: $dH = C_P(T) dT$.
 
@@ -329,8 +320,7 @@ Nous verrons par la suite que ces valeurs ont un sens particuliers.
 
 ### Relation de Mayer et coefficient gamma
 
-````{admonition} Fondamental : Relation de Mayer
-:class: attention
+````{important} __Fondamental : Relation de Mayer__
 
 Pour un gaz parfait: $C_P - C_V = nR$
 ````
@@ -345,15 +335,13 @@ __Interprétation__
 On rappelle que la capacité thermique à volume constant donne l'énergie à fournir pour augmenter la température de 1K à volume constant et la capacité thermique à pression constante l'énergie à fournir pour augmenter la température de 1K à pression constante. La relation de Mayer montre que $C_P > C_V$: il est donc plus coûteux (en énergie) d'augmenter la température à pression constante que de l'augmenter à volume constante. On pourra en comprendre la raison par la suite.
 
 
-````{admonition} Définition : Coefficient gamma.
-:class: tip
+````{important} __Définition : Coefficient gamma.__
 
 On définit le coefficient gamma $\gamma$ d'un gaz parfait par le rapport $\gamma = \frac{C_P}{C_V}$. Il dépend du type de gaz mais pas de la quantité de gaz. Il est nécessairement supérieur à 1.
 
 ````
 
-````{admonition} Fondamental : Coefficient gamma et capacités thermiques
-:class: attention
+````{important} __Fondamental : Coefficient gamma et capacités thermiques__
 
 En général, la seule donnée du coefficient gamma suffit à caractériser un gaz parfait (en plus de préciser qu'il s'agit d'un gaz parfait) d'un point de vue énergétique. En effet, avec la relation de Mayer, on a deux relations, faisant intervenir les capacités thermiques, on peut donc les exprimer en fonction du coefficient gamma et du nombre de mole.
 
@@ -367,8 +355,7 @@ C_p &= \frac{\gamma nR}{\gamma - 1}
 
 ### Cas du gaz parfait monoatomique
 
-````{admonition} Fondamental : Energie interne d'un gaz parfait monoatomique
-:class: attention
+````{important} __Fondamental : Energie interne d'un gaz parfait monoatomique__
 
 L'énergie interne d'un gaz parfait monoatomique est $U = \frac{3}{2}n R T$. Sa capacité thermique à volume constant est donc $C_V = \frac{3}{2}nR$ et sa capacité thermique à pression constante est $\frac{5}{2}nR$.
 

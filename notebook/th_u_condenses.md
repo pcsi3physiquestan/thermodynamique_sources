@@ -23,8 +23,7 @@ _Rappel : Fluide incompressible et indilatable_
 Un liquide est dit incompressible si son volume ne varie pas, quelque soit les changements de pression ou de température qu'il subit.
 
 
-````{admonition} Fondamental : Energie interne et enthalpie d'un fluide incompressible et indilatable.
-:class: attention
+````{important} __Fondamental : Energie interne et enthalpie d'un fluide incompressible et indilatable.__
 
 L'énergie interne et l'enthalpie d'un fluide incompressible ne varient qu'avec la température (puisque le volume ne varie pas et que la pression n'a pas d'effets important sur le volume).
 
@@ -35,8 +34,7 @@ L'énergie interne et l'enthalpie d'un fluide incompressible ne varient qu'avec 
 On considérera que la variation du produit PV étant négligeable, la variation d'enthalpie et d'énergie interne est alors identique, soit $C_V \approx C_P$ (qu'on notera souvent C et qu'on appellera capacité thermique sans précision).
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Cette fois on n'a pas d'expression des capacités thermiques contrairement au cas des gaz parfaits. A titre d'exemple (à retenir), la capacité thermique de l'eau est $4.18 \rm{kJ.kg^{-1}.mol^{-1}} = 1 \rm{kcal.kg^{-1}.mol^{-1}}$.
 
@@ -44,8 +42,7 @@ Cette fois on n'a pas d'expression des capacités thermiques contrairement au ca
 
 ## Solides
 
-````{admonition} Fondamental : Energie et enthalpie des solides
-:class: attention
+````{important} __Fondamental : Energie et enthalpie des solides__
 
 Comme pour les liquides incompressibles, on peut négliger les variations de volumes et du produit PV de sorte que la variation d'énergie interne et d'enthalpie seront à peu près égale et ne dépendront que de la variation de température.
 

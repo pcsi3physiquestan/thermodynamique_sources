@@ -32,8 +32,7 @@ Leur fonctionnement général se base sur le principe simple d'équivalence entr
 La suite de transformations permettant d'effectuer cette conversion ne dure en général pas plus de quelques secondes ou quelques minutes (quelques heures pour certaines machines très particulières). Or un réfrigérateur, un moteur de voiture...  doivent pouvoir fonctionner plusieurs heures voire plusieurs mois sans qu'on doivent relancer à chaque fois la machine. Il faut donc qu'à la fin de la transformation, on soit revenu au point de départ pour recommencer la série de transformation: les machines thermiques fonctionnent en général sur des cycles (ce qui ne veut pas dire qu'il n'y a pas des transformations non cycliques à l'allumage).
 
 
-````{admonition} Définition : Machines thermiques
-:class: tip
+````{important} __Définition : Machines thermiques__
 
 Une machine thermique est constitué d'un système (M) qui, en général décrit des cycles fermés successifs. Au cours du cycle, il échange du transfert thermique $Q_i$ avec des sources de chaleur $\Sigma_i$ à température $T_i$ et du travail mécanique $W_i$ avec les systèmes mécaniques (notés $Sm_i$).
 
@@ -86,8 +85,7 @@ W + Q_c + Q_f &= 0\\
 \frac{Q_c}{T_c} + \frac{Q_f}{T_f} &\leq 0
 \end{align} 
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 La dernière inégalité n'est valable QUE pour des thermostats parfaits, c'est-à-dire dont la température est la même à tout instant. Dans certaines cas, une des sources (ou les deux) ne peuvent être considérées comme des sources parfaites, il faut alors revenir à l'expression générale du second principe.
 

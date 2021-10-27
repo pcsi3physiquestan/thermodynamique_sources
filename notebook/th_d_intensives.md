@@ -19,8 +19,7 @@ kernelspec:
 
 ### Température: Définition
 
-````{admonition} Définition : Température (thermodynamique)
-:class: tip
+````{important} __Définition : Température (thermodynamique)__
 
 Soit un système dont l'entropie est notée S, l'énergie interne U et le volume V. On définit la température du système par la grandeur:
 
@@ -35,8 +34,7 @@ Il s'agit d'une définition très abstraite qui nous servira peu par la suite. N
 
 ### Température cinétique
 
-````{admonition} Fondamental : Température (cinétique) - Admis
-:class: attention
+````{important} __Fondamental : Température (cinétique) - Admis__
 
 L'énergie cinétique moyenne de translation des particules d'un gaz s'écrit en fonction de la température sous la forme:
 
@@ -81,8 +79,7 @@ On remarquera que pour passer de deux températures séparées à des températu
 
 ### Température: Propriétés et mesures
 
-````{admonition} Fondamental : Principe zéro
-:class: attention
+````{important} __Fondamental : Principe zéro__
 
 Tous les systèmes en équilibre thermique avec un système donnée sont en équilibre entre eux. Ce principe se vérifie expérimentalement. On dit alors que tous ces systèmes sont à la même température.
 
@@ -111,8 +108,7 @@ Cette interprétation vient du besoin, après l'utilisation de très nombreuses 
 Avec la température absolue (dont l'unité sera le Kelvin K), on définit un 0 issu de propriétés fondamentales et comme valeur limite basse (il ne peut y avoir de température négative). Il restera à choisir une échelle (arbitraire).
 
 
-````{admonition} Fondamental : Expérience de Boyle-Mariotte
-:class: attention
+````{important} __Fondamental : Expérience de Boyle-Mariotte__
 
 ```{figure} ./images/thermo_amagat.jpg
 :name: fig_270
@@ -125,8 +121,7 @@ On dispose d'une masse m donnée de gaz maintenue à température constante dans
 Boyle et Mariotte ont montré qu'on pouvait interpoler la valeur limite du produit PV quand P tendait vers 0 par une valeur $PV_{P=0}$ qui ne dépendait que de la température $\theta$, quel que soit le gaz considéré. On dit que le comportement des gaz est alors parfait.
 ````
 
-````{admonition} Définition : Température absolue
-:class: tip
+````{important} __Définition : Température absolue__
 
 On définit la température absolue à partir d'un point de référence $T_R = 273,16 \rm{K}$ au point triple de l'eau et telle que $T=0$ quand pour un gaz, $PV_{P=0} = 0$. La température T "absolue" est alors définie comme la limite du produit $\frac{PV}{nR}$ lorsque P tend vers 0 pour un gaz.
 
@@ -155,8 +150,7 @@ On rappelle que la pression peut-être vue comme un transfert de quantité de mo
 Comme on l'a déjà précisé, cette interprétation sera surtout utilisée pour exprimer la pression d'un fluide sur une paroi. On parle de __pression cinétique__. On peut calculer la force moyenne exercée par une particule sur la paroi puis sommer les forces exercées par l'ensemble des particules qui heurtent la paroi par unité de temps. Un tel calcul sera réalisé dans le cadre de l'étude de la pression cinétique d'un gaz parfait.
 
 
-````{admonition} Définition : Pression thermodynamique
-:class: tip
+````{important} __Définition : Pression thermodynamique__
 
 Soit un système dont l'entropie est notée S, l'énergie interne U et le volume V. On définit la pression du système par la grandeur:
 
@@ -227,8 +221,7 @@ Cas vertical. On projette suivant Oz:
 P &= P_0 + \frac{Mg}{S}
 \end{align*} 
 
-```{admonition} Attention : 
-:class: note
+```{attention}
 
 Plusieurs erreurs fréquentes sont rencontrées lors de l'établissement de l'équilibre mécanique.
 

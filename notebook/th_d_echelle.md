@@ -21,8 +21,7 @@ kernelspec:
 Le fait qu'un système thermodynamique contiennent un grand nombre de particule conduit à distinguer 3 niveaux de description du système. Nous verrons que l'on peut quelque fois définir les grandeurs physiques à ces différents niveaux. Le tout est que ce soit cohérent.
 
 
-````{admonition} Définition : Echelle microscopique
-:class: tip
+````{important} __Définition : Echelle microscopique__
 
 L'échelle microscopique est l'échelle des particules élémentaires qui forment le système. Pour des molécules, elle sera de l'ordre de $10^{-10}\rm{m}$. A cette échelle, la matière est discontinue.
 
@@ -34,8 +33,7 @@ Ajoutons que d'un point de vue physique, les variations sont très faibles et tr
 
 ````
 
-````{admonition} Définition : Echelle macroscopique
-:class: tip
+````{important} __Définition : Echelle macroscopique__
 
 L'échelle macroscopique est notre échelle. Celle à laquelle, nous pouvons percevoir des détails, des objets, des variations...  A cette échelle, tout milieu constitué d'une seule phase paraît continu.
 
@@ -45,8 +43,7 @@ Son principal inconvénient: on perd nécessairement de l'information. Nous verr
 
 ````
 
-````{admonition} Définition : Echelle mésoscopique
-:class: tip
+````{important} __Définition : Echelle mésoscopique__
 
 L'échelle mésoscopique est une échelle intermédiaire. Elle correspond à un petit volume $d \tau$. Celui-ci est assez grand pour contenir un nombre important de particules et qu'on puisse considérer la matière comme continue et assez petit pour que les grandeurs macroscopiques observables (température, pression, densité, concentration... ) y soient uniformes. Pour cela, il faut que $d \tau$ soit grand devant le volume moyen occupé par une particule et petit devant les variations des grandeurs intensives.
 

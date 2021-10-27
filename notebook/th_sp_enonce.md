@@ -18,8 +18,7 @@ kernelspec:
 
 ## Second principe: Enoncé
 
-````{admonition} Fondamental : Second principe de la thermodynamique
-:class: attention
+````{important} __Fondamental : Second principe de la thermodynamique__
 
 Pour tout système thermodynamique, on définit une fonction d'état $S$, extensive, appelée entropie telle que la variation d'entropie $\Delta S$ pour un système isolé ne peut qu'être positive.
 
@@ -28,8 +27,7 @@ Pour tout système thermodynamique, on définit une fonction d'état $S$, extens
 \end{equation}
 ````
 
-````{admonition} Fondamental : Réécriture du second principe
-:class: attention
+````{important} __Fondamental : Réécriture du second principe__
 
 Pour tout système thermodynamique fermé, la variation d'entropie $\Delta S$ du système se décompose (par extensivité) en deux termes:
 
@@ -58,8 +56,7 @@ Si on considère que l'entropie est une mesure du désordre, il vient que le dé
 
 ## Entropie créée et transformations réversibles
 
-````{admonition} Fondamental : Entropie créée et transformation réversible
-:class: attention
+````{important} __Fondamental : Entropie créée et transformation réversible__
 
 Pour une transformation réversible, l'entropie créée est nulle.
 

@@ -23,8 +23,7 @@ _Notation: Dans la suite, on notera avec un indice l les grandeurs liées au liq
 
 ### Fractions molaires et massiques
 
-````{admonition} Définition : Fraction massique et molaire
-:class: tip
+````{important} __Définition : Fraction massique et molaire__
 
 Dans un système où deux phases liquide et gaz coexistent, on définit la fraction molaire $X_{ml}$ de la phase liquide par la grandeur: $X_{ml} = \frac{n_l}{n_T}$ où $n_l$ est la quantité de matière de la phase liquide et $n_T$ la quantité de matière totale.
 
@@ -56,8 +55,7 @@ Y_m &= \frac{Y}{n_T} = \frac{Y_l + Y_g}{n_T} + \frac{n_l Y_{ml} + n_g Y_{mg}}{n_
 
 ### Théorème des moments
 
-````{admonition} Fondamental : Théorème des moments
-:class: attention
+````{important} __Fondamental : Théorème des moments__
 
 Soit, sur un diagramme de Clapeyron, un point M du palier à T et les points E et B du même palier placées respectivement sur la courbe d'ébullition et la courbe de rosée. On peut alors écrire: $x_l ME = x_g MB$ où ME et MB correspondent aux longueurs des deux segments.
 
@@ -106,8 +104,7 @@ __Bilan enthalpique lors d'un changement d'état__
 Soit un corps pur à la température $T_{sat}$ et à la pression $P_{sat}$ associée. La variation d'enthalpie massique correspondant à la formation de $\Delta x_g$ (soit une formation de liquide $\Delta x_l = - \Delta x_g$) de gaz à température et pression constante est: $\Delta h = \Delta x_g \Delta h_{vap} = \Delta x_l \Delta h_{liq}$
  
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Il est important de ne pas se tromper sur l'enthalpie de changement d'état à choisir, elle correspond à la grandeur formée (en grandeur algébrique).
 
@@ -118,8 +115,7 @@ __Démonstration__
 A démontrer à titre d'exerice.
 
 
-````{admonition} Fondamental : Signe des enthalpies de changement d'état
-:class: attention
+````{important} __Fondamental : Signe des enthalpies de changement d'état__
 
 Observation: Expérimentalement on observe que, pour tous les corps, il faut fournir de l'énergie au système pour passer du solide au liquide, du solide au gaz et du liquide au gaz. Il vient donc que:
 
@@ -130,8 +126,7 @@ Observation: Expérimentalement on observe que, pour tous les corps, il faut fou
 
 ### Bilans entropiques
 
-````{admonition} Définition : Entropie massique de changement d'état
-:class: tip
+````{important} __Définition : Entropie massique de changement d'état__
 
 L'entropie massique de changement d'état à la température $T_{sat}$ est la variation d'entropie d'un kilogramme de corps pur lors du changement d'état complet.
 
@@ -143,8 +138,7 @@ L'entropie massique de changement d'état à la température $T_{sat}$ est la va
 Par exemple l'entropie massique de vaporisation est: $\Delta s_{vap}(T_{sat}) = s_{g}(T_{sat}) - s_{l}(T_{sat})$.
 ````
 
-````{admonition} Fondamental : Relation entropie-enthalpie
-:class: attention
+````{important} __Fondamental : Relation entropie-enthalpie__
 
 Considérons un changement d'état monotherme à température T dont l'enthalpie massique de changement d'état est $\Delta h_{ch}$. L'entropie massique de changement d'état $\Delta s_{ch}$ est:
 

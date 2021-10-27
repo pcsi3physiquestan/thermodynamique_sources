@@ -17,7 +17,7 @@ kernelspec:
 # Premier principe
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Définir le système
 * Exploiter les conditions imposées par le milieu pour déterminer l'état d'équilibre final
 * Utiliser le vocabulaire usuel: évolutions isochore, isotherme, isobare, monobare, monotherme.

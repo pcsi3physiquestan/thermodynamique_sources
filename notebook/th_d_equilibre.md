@@ -17,8 +17,7 @@ kernelspec:
 
 ## Equilibre thermodynamique
 
-````{admonition} Définition : Equilibre thermodynamique
-:class: tip
+````{important} __Définition : Equilibre thermodynamique__
 
 Un système est en équilibre thermodynamique s'il est à la fois à l'équilibre mécanique, thermique et chimique.
 
@@ -40,8 +39,7 @@ Un équilibre thermodynamique n'est pas indépendant de la durée d'observation:
 
 ## Equation d'état
 
-````{admonition} Définition : Equation d'état
-:class: tip
+````{important} __Définition : Equation d'état__
 
 Dans un état d'équilibre, le nombre de variable d'état __indépendantes__, c'est-à-dire qu'on peut faire varier de manière séparées expérimentalement, est inférieure au nombre de variables d'état total.
 

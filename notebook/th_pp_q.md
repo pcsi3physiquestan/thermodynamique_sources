@@ -26,8 +26,7 @@ Pour déterminer le transfert thermique lors qu'une transformation, on ne possè
 
  
 
-````{admonition} Fondamental : Mode de transfert thermique
-:class: attention
+````{important} __Fondamental : Mode de transfert thermique__
 
 Si nous ne pouvons donner une expression générale du transfert thermique. On peut au moins voir comment il se produit. Comme on le verra en deuxième année, on peut distinguer plusieurs types de transferts:
 

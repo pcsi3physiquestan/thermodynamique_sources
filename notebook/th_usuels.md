@@ -16,7 +16,7 @@ kernelspec:
 # Systèmes thermodynamiques usuels
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Connaître et utiliser l'équation d'état des gaz parfaits.
 * Exprimer l'énergie interne d'un gaz parfait monoatomique à partir de l'interprétation microscopique de la température.
 * Savoir que l'énergie interne d'un gaz parfait ne dépend que de la température.

@@ -26,8 +26,7 @@ Le reandement d'un moteur ditherme s'écrit donc:
 \rho = \frac{\vert W \vert}{Q_c}
 \end{equation}
 
-````{admonition} Fondamental : Rendement de Carnot du moteur ditherme
-:class: attention
+````{important} __Fondamental : Rendement de Carnot du moteur ditherme__
 
 Le rendement maximal d'un moteur ditherme est obtenu pour un cycle réversible. Il ne dépend que des températures des sources chaudes et froides et pas de la façon dont les échanges d'énergie s'effectuent. Il a pour expression:
 

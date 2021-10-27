@@ -42,8 +42,7 @@ On rappelle qu'une transformation monobare est une transformation pour laquelle 
 Si la transformation est de plus quasi-statique, elle devient isobare.
 
 
-````{admonition} Fondamental : Réécriture du premier principe pour une transformation monobare
-:class: attention
+````{important} __Fondamental : Réécriture du premier principe pour une transformation monobare__
 
 Soit un système fermé dont la pression extérieure agissante sur le système est maintenue constante $P_0$ passant d'un état d'équilibre à un autre. La variation d'enthalpie $\Delta H$ s'écrit:
 
@@ -71,8 +70,7 @@ Il s'agit d'une __réécriture du premier principe__.
 On pourra faire le parallèle avec le passage du TEC au TEM. Ici aussi, on "fait passer" un terme (produit PV) de la gauche vers la droite et on redéfinit une nouvelle grandeur énergétique, ce qui simplique l'expression du premier principe.
 
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 L'analogie précédente a ses limites car le passage du TEC au TEM est valable quelle que soit le système alors qu'ici la réécriture du premier principe avec l'enthalpie __n'est valable que si la transformation est monobare entre deux états d'équilibre__.
 

@@ -21,8 +21,7 @@ _Jusqu'à présent, nous avons toujours supposer que les différents corps étud
 
 ### Phases: Définitions
 
-````{admonition} Définition : Phase
-:class: tip
+````{important} __Définition : Phase__
 
 Une phase est un système (ou un sous-système) dans lequel les paramètres intensifs sont continus. A l'équilibre ces paramètres sont uniformes.
 
@@ -40,8 +39,7 @@ __Description des phases__
 
 ### Transitions de phases
 
-````{admonition} Définition : Transitions des phases
-:class: tip
+````{important} __Définition : Transitions des phases__
 
 Les différents noms des changements d'état sont à connaître. 
 
@@ -59,8 +57,7 @@ _On peut représenter sur un diagramme (T,P) les zones où peuvent exister de ma
 
 ### Observations expérimentales
 
-````{admonition} Fondamental : 
-:class: attention
+````{important} __Fondamental : __
 
 ```{figure} ./images/thermo_chap_6_diag_pt.jpg
 :name: fig_280
@@ -69,8 +66,7 @@ _On peut représenter sur un diagramme (T,P) les zones où peuvent exister de ma
 ```
 ````
 
-````{admonition} Fondamental : Observations générales
-:class: attention
+````{important} __Fondamental : Observations générales__
 
 * Observation 1: L'existence stable des différentes phases dépend des données de température et de pression du système. Pour un couple (T,P), il n'existe qu'une seule configuration (1, 2 ou 3 phases données) pouvant exister de manière stable.
 * Observation 2: L'existence stable d'un système monophasé n'impose aucune relation entre température et pression: les zones d'existence seront donc des surfaces sur le diagramme.
@@ -107,8 +103,7 @@ Le point critique est défini par la donnée de $T_c$ et $P_c$. Le volume massiq
 
 ### Tracé du diagramme (T,P)
 
-````{admonition} Fondamental : Tracé
-:class: attention
+````{important} __Fondamental : Tracé__
 
 ```{figure} ./images/thermo_chap_6_diag_pt.jpg
 :name: fig_281
@@ -145,8 +140,7 @@ Ce phénomène (pente inversée) s'observe de deux façons:
 
 ### Variétés allotropiques
 
-````{admonition} Définition : Variétés allotropiques
-:class: tip
+````{important} __Définition : Variétés allotropiques__
 
 Il existe des corps qui possèdent plusieurs état correspondant à une même phase, on parle alors de variétés allotropiques d'un corps.
 
@@ -174,8 +168,7 @@ L'hélium 4 est un exemple de corps possédant des variétés allotropiques liqu
 
 ### Diragramme de Clapeyron et Isotherme d'Andrews
 
-````{admonition} Définition : Diagramme de Clapeyron
-:class: tip
+````{important} __Définition : Diagramme de Clapeyron__
 
 Un diagramme de Clapeyron et un diagramme où l'on représente la pression du système en fonction du volume massique total du système.
 
@@ -183,8 +176,7 @@ Une isotherme d'Andrews correspond au tracé d'une transformation isotherme d'un
 
 ````
 
-````{admonition} Fondamental : Observation
-:class: attention
+````{important} __Fondamental : Observation__
 
 Quand 2 phases coexistent à température constante (sur une isotherme d'Andrews), la pression est fixée. On parle de __palier__.
 
@@ -249,8 +241,7 @@ Par contre, la largeur du palier diminue quand la température augmente: cela si
 
 ### Retard au changement d'état: Etat métastable
 
-````{admonition} Définition : Etat métastable
-:class: tip
+````{important} __Définition : Etat métastable__
 
 Un état métastable est un état du système thermodynamiquement instable, c'est-à-dire ne pouvant exister dans les conditions de température et de pression données, mais pouvant exister sur un temps relativement long (on parle de stabilité cinétique).
 
@@ -298,8 +289,7 @@ Interprétation: On peut considérer que l'expérience est monobare donc $\Delta
 __D'une manière générale, quand il se produit un changement d'état du système, l'enthalpie de ce dernier varie (positivement ou négativement).__  
 
 
-````{admonition} Définition : Enthalpie massique de changement d'état
-:class: tip
+````{important} __Définition : Enthalpie massique de changement d'état__
 
 On appelle enthalpie massique de changement d'état à la pression P, la variation d'enthalpie $\Delta h$ du corps pur au cours du changement d'état complet d'un kilogramme du corps pur considéré à la pression donnée.
 
@@ -309,8 +299,7 @@ On appelle enthalpie massique de changement d'état à la pression P, la variati
 On parle aussi de chaleur latente massique de changement d'état. L'évolution lors du changement la pression est fixée (puisqu'on fixe la température par définition de la grandeur), l'évolution est donc nécessairement isobare et on peut écrire: $\Delta h = q$ au cours de la transformation.
 
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Même si on l'appelle "enthalpie", il s'agit bien d'une variation d'enthalpie. Sa valeur dépend du corps pur __et de la température__.
 
@@ -357,8 +346,7 @@ L'enthalpie de changement d'état tend vers 0 quand on se rapproche du point cri
 ```
 
 
-````{admonition} Définition : Diagramme p-H
-:class: tip
+````{important} __Définition : Diagramme p-H__
 
 Comme son nom l'indique, un diagramme p-H est un diagramme où l'on représente la pression en fonction de l'enthalpie. Plusieurs propriétés sont observées.
 

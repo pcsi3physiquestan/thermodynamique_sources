@@ -61,8 +61,7 @@ Ces deux composantes sont associées à des mouvement macroscopiques observables
 
 
 
-````{admonition} Définition : Energie totale et énergie interne
-:class: tip
+````{important} __Définition : Energie totale et énergie interne__
 
 On peut donc écrire l'énergie totale d'un système:
 
@@ -73,8 +72,7 @@ Les termes microscopiques, $E_{P,int}, E_{th}, E_{rot,mic}, E_{vib,mic}$ ne sont
 
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Il s'agit d'une interprétation de l'énergie interne qui nous permettra de la calculer dans certains cas simples mais il ne s'agit pas d'une définition.
 
@@ -112,8 +110,7 @@ On définit plusieurs autres grandeurs énergétiques (qui ont la dimension d'un
 Toutes les grandeurs proposées ici sont des __fonctions d'état extensives.__  
 
 
-````{admonition} Définition : Enthalpie
-:class: tip
+````{important} __Définition : Enthalpie__
 
 On définit l'enthalpie H par $H = U + PV$
 
@@ -157,8 +154,7 @@ On définit quelques dérivées partielles particulières:
 La division par V permet d'obtenir des coefficients qui ne dépendent pas de la taille du système (on remarquera qu'on peut remplacer le volume par le volume molaire/massique sans changer l'expression).
 ````
 
-````{admonition} Définition : Capacités thermiques
-:class: tip
+````{important} __Définition : Capacités thermiques__
 
 On définit aussi quelques caractéristiques particulières associées à l'énergie:
 
@@ -186,8 +182,7 @@ Il existe de nombreuses définitions de l'entropie (toutes cohérentes). On se p
 Ce n'est pas la définition la plus utilisée durant cette année mais elle permet d'avoir de donner un sens "physique" à l'entropie.
 
 
-````{admonition} Fondamental : Propriétés
-:class: attention
+````{important} __Fondamental : Propriétés__
 
 L'entropie S d'un système est __une fonction d'état__. Elle est __extensive__.
 

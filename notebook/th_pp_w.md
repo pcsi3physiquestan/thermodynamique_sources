@@ -110,8 +110,7 @@ Comme dans l'exemple général, on note $\overrightarrow{dl}(M)$ le déplacement
 ```
 
 
-````{admonition} Fondamental : Travail des contraintes normales: Expression générale
-:class: attention
+````{important} __Fondamental : Travail des contraintes normales: Expression générale__
 
 Considérons l'évolution du système durant un temps dt, le travail élémentaire des forces de contraintes normales extérieures s'écrit:
 
@@ -129,8 +128,9 @@ La première formule est la simple expression du travail élémentaire.
 La seconde vient du fait que $\overrightarrow{dl} \cdot \overrightarrow{n}$ donne en valeur absolue la hauteur du cylindre de base dS balayé par la surface dS lors de la déformation de sorte que le produit scalaire donne bien le volume balayé $dV_{balaye}(M)$par la surface dS.
 
 
-````{admonition} Attention : Volume balayé
-:class: note
+````{attention}
+__Volume balayé__
+
 
 Le volume balayé est __albégrique__ (à cause du produit scalaire).
 
@@ -148,8 +148,7 @@ On rappelle que le $\delta W$ correspond à une variation infinitésimale dans l
 
 ### Cas à connaître: contrainte uniforme.
 
-````{admonition} Fondamental : Contrainte uniforme sur l'ensemble du système.
-:class: attention
+````{important} __Fondamental : Contrainte uniforme sur l'ensemble du système.__
 
 Si la contrainte normale $\sigma_{ext}$ est uniforme l'ensemble du système (plus précisément sur l'ensemble des parois mobiles), alors le travail de la contrainte normale devient $\delta W = - \sigma_{ext} dV$ où $dV$ est la variation de volume du système total.
 
@@ -178,8 +177,7 @@ Comme on l'a dit, on appelle, par abus de langage ce travail "travail des forces
 Ce n'est en effet PAS une pression et la manière de calculer $\sigma_{ext}$ ne se ramène pas simplement à le remplacer par P (la pression du système) ou par une pression extérieure notée $P_0$. Il faut __réfléchir au système étudié pour déterminer son expression.__  
 ````
 
-````{admonition} Fondamental : Cas d'une transformation quasi-statique
-:class: attention
+````{important} __Fondamental : Cas d'une transformation quasi-statique__
 
 Dans le cas d'une transformation quasi-statique, le travail des contraintes normales extérieures se réécrit:
 
@@ -209,22 +207,19 @@ Le cas d'une transformation quasi-statique présente plusieurs intérêts. Nous 
 
 ### Diagramme de Watt
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Dans toute la suite, on considère le cas du travail des contraintes extérieures __dans le cas quasi-statique__. Dans ce cas, la contrainte extérieure est uniforme et égale à la pression P du système, on rappelle que dans ces conditions, le travail se réécrit $\delta W = - PdV$.
 
 ````
 
-````{admonition} Définition : Diagramme de Watt
-:class: tip
+````{important} __Définition : Diagramme de Watt__
 
 Un diagramme de Watt est la représentation de la pression du système en fonction du volume du système.
 
 ````
 
-````{admonition} Fondamental : Interprétation géométrique du travail des contraintes normales extérieures
-:class: attention
+````{important} __Fondamental : Interprétation géométrique du travail des contraintes normales extérieures__
 
 Dans le cas d'une transformation quasi-statique, on peut représenter la transformation entre un état A et un état B pour un chemin dans un diagramme de Watt. Le travail des contraintes normales extérieures y est alors représenté par l'opposé de l'aire sous la courbe ainsi dessinée.
 
@@ -243,21 +238,18 @@ L'orientation du chemin permet alors de savoir si le travail reçu par le systè
 ```
 ````
 
-````{admonition} Définition : Cycle
-:class: tip
+````{important} __Définition : Cycle__
 
 Un cycle est une transformation ou une série de transformations ramenant le système dans son état initial.
 
 ````
 
-````{admonition} Fondamental : Grandeurs d'état et cycle
-:class: attention
+````{important} __Fondamental : Grandeurs d'état et cycle__
 
 La variation d'une variable d'état sur un cycle est trivialement nulle.
 ````
 
-````{admonition} Fondamental : Cas des cycles: Travail des contraintes normales
-:class: attention
+````{important} __Fondamental : Cas des cycles: Travail des contraintes normales__
 
 Dans une transformation quasi-statique cyclique, le travail fourni passe par des phases motrices puis résistantes. Le signe du travail globale défini si le système a reçu ou fourni de l'énergie. On relie ce signe au sens de parcours du cycle:
 

@@ -35,8 +35,7 @@ On rappelle que la connaissance d'un micro-état précis est impossible et que d
 A l'inverse, à l'équilibre le macro-état reste le même et est mesurable.
 
 
-````{admonition} Définition : Microétat compatible
-:class: tip
+````{important} __Définition : Microétat compatible__
 
 Pour un macro-état observé, les micro-états dont les données sont cohérentes avec le macro-état observé sont dits micro-état compatibles ou accessibles.
 
@@ -66,8 +65,7 @@ Les différentes macro-état possibles n’ont pas tous le même nombre de micro
 C’est pourquoi on doit faire une hypothèse fondamentale pour la physique statistique.
 
 
-````{admonition} Définition : Système microcanonique
-:class: tip
+````{important} __Définition : Système microcanonique__
 
 Un système pour lequel l’énergie du macroétat est imposé (système isolé) est appelé distribution microcanonique. Les variables privilégiées seront donc l’énergie E, le volume V et le nombre de mole n (ou le nombre de particules N).
 
@@ -79,8 +77,7 @@ Il existe d'autres types de distributions statistiques où l'on impose d'autres 
 On impose E, V et N mais les autres grandeurs peuvent parfaitement varier. Autrement dit, même si on fixe E,V et n, les autres grandeurs T et P ne sont pas forcément fixées. Il peut donc y avoir plusieurs macroétats possibles. Dans ces conditions, celui qui décrira le mieux le système à l’équilibre sera le macroétats le plus probables. L’hypothèse microcanonique assure que __le macroétat le plus probable__ est celui pour lequel la grandeur $\Omega(E,V,n)$. On appelle la fonction $\Omega$ nombre __d’états accessibles__.
 
 
-````{admonition} Fondamental : Hypothèse microcanonique
-:class: attention
+````{important} __Fondamental : Hypothèse microcanonique__
 
 Dans un système isolé, tous les états microscopiques, ou micro-états, possibles, c’est-à-dire correspondant à un macro-état donné sont équiprobables.
 ````
@@ -118,8 +115,7 @@ On définit l’entropie statistique d’un système, dans un état macroscopiqu
 Cette définition n'est pas à connaître.
 
 
-````{admonition} Définition : Entropie statistique - Cas microcanonique (A connaître)
-:class: tip
+````{important} __Définition : Entropie statistique - Cas microcanonique (A connaître)__
 
 Dans le cas d'un système isolé, l'entropîe se réécrire en fonction de la seule fonction de répartition $\Omega$:
 

@@ -19,15 +19,13 @@ _Pour étudier un système physique, on doit définir des grandeurs permettant d
 
 ## Microétat
 
-````{admonition} Définition : Etat d'une particule
-:class: tip
+````{important} __Définition : Etat d'une particule__
 
 A un instant t, on peut définir l'état d'une particule par différentes caractéristiques (qui sont microscopiques !): sa vitesse (3 coordonnées), sa position (3 coordonnées) et possiblement sa forme (vibration, rotation... ) si la particule n'est pas un simple atome (on ne s'intéresse pas ici à des phénomènes nucléaires).
 
 ````
 
-````{admonition} Définition : Microétat
-:class: tip
+````{important} __Définition : Microétat__
 
 Pour un système dynamique, on appelle __microétat__ un état du système décrit par les données de toutes les grandeurs microscopiques de toutes les particules du système.
 
@@ -50,8 +48,7 @@ Comme nous le verrons par la suite, les hypothèses d'étude en théorie cinéti
 Les grandeurs utiles correspondent en général à la moyenne ou à la variance/écart-type qu'on relie à des grandeurs macroscopiques. Il faut par contre faire attention, à la différence des valeurs moyennes étudiées en électrocinétique, il s'agit ici de moyennes sur un __ensemble et non sur une durée__.
 ````
 
-````{admonition} Définition : Vitesse quadratique moyenne
-:class: tip
+````{important} __Définition : Vitesse quadratique moyenne__
 
 On définit la vitesse quadratique moyenne comme la racine carré de la moyenne de la statistique des vitesses (en norme) au carré.
 
@@ -110,8 +107,7 @@ On observe l'intérêt de la vitesse quadratique moyenne: elle est directement l
 
 ## Echelle macroscopique: Variables d'état
 
-````{admonition} Définition : Variables d'état
-:class: tip
+````{important} __Définition : Variables d'état__
 
 Les variables d'état sont des grandeurs macroscopiques permettant de définir l'état du système à un instant donné à l'échelle macroscopique.
 
@@ -159,15 +155,13 @@ L'expression trouvée précédemment de l'énergie moyenne relie la température
 
 ## Grandeurs extensives et intensives
 
-````{admonition} Définition : Grandeurs extensives
-:class: tip
+````{important} __Définition : Grandeurs extensives__
 
 Un grandeur est dite extensive si sa valeur considérée pour une portion de volume V d'un système homogène est proportionnelle à V.
 
 ````
 
-````{admonition} Définition : Grandeurs intensives
-:class: tip
+````{important} __Définition : Grandeurs intensives__
 
 Une grandeur est dite intensive si sa valeur considérée pour une portion de volume V d'un système homogène est indépendante de V.
 
@@ -182,15 +176,13 @@ Le rapport de deux grandeurs extensives est une __grandeur intensive__. Par exem
 Cette observation permet de définir les grandeurs molaires et massiques
 
 
-````{admonition} Définition : Grandeurs molaires
-:class: tip
+````{important} __Définition : Grandeurs molaires__
 
 Pour une grandeur $C$ extensive, on définit une grandeur dite molaire, c'est-à-dire rapportée à une mole. On la note par convention $C_{m}$.
 
 ````
 
-````{admonition} Définition : Grandeurs massiques
-:class: tip
+````{important} __Définition : Grandeurs massiques__
 
 Pour une grandeur $C$ extensive, on définit une grandeur dite massique, c'est-à-dire rapportée à une masse de $1 \rm{kg}$. On le note par convention $c$ (minuscule).
 

@@ -37,8 +37,7 @@ Cette expression n'est pas à connaître mais elle montre le fort lien entre ent
 
 ### Entropie échangée: Cas d'une transformation adiabatique
 
-````{admonition} Fondamental : Entropie échangée et transformation adiabatique
-:class: attention
+````{important} __Fondamental : Entropie échangée et transformation adiabatique__
 
 L'entropie échangée lors d'une transformation adiabatique est nulle.
 ````
@@ -50,8 +49,7 @@ Une conséquence directe est que l'entropie S ne peut qu'__augmenter lors d'une 
 
 ### Entropie échangée et transformation réversible
 
-````{admonition} Fondamental : Entropie échangée - Cas d'une transformatino réversible
-:class: attention
+````{important} __Fondamental : Entropie échangée - Cas d'une transformatino réversible__
 
 Dans une transformation réversible, l'entropie échangée s'écrit $\delta S_{ech} =\frac{\delta Q}{T}$ où $\delta Q$ est le transfert thermique global échangé durant le temps dt de la transformation et T __la température du système.__  
 ````
@@ -63,15 +61,13 @@ Si la transformation est réversible, le système est en équilibre thermique à
 
 ### Entropie échangée: Contact avec un thermostat
 
-````{admonition} Définition : Thermostat
-:class: tip
+````{important} __Définition : Thermostat__
 
 Un thermostat (ou source de chaleur) est un système de capacité thermique infinie, n'échangeant pas de travail mais uniquement du transfert thermique avec l'extérieur. Il est caractérisé par sa température qui ne varie pas. Son évolution est considérée réversible.
 
 ````
 
-````{admonition} Fondamental : Entropie échangée avec un thermostat
-:class: attention
+````{important} __Fondamental : Entropie échangée avec un thermostat__
 
 Si un système fermé ne peut échanger de chaleur qu'avec un thermostat à température $T_{\textrm{thermostat}}$, l'entropie échangé est: $\delta S_{ech} = \frac{\delta Q}{T_{\textrm{thermostat}}}$ où $\delta Q$ la chaleur totale reçue du thermostat.
 ````
@@ -103,8 +99,7 @@ dU = TdS - PdV
 
 ### Entropie des gaz parfaits
 
-````{admonition} Fondamental : Entropie des gaz parfaits
-:class: attention
+````{important} __Fondamental : Entropie des gaz parfaits__
 
 Pour un gaz parfait, l'entropie s'écrit:
 
@@ -143,8 +138,7 @@ dS &= \delta S_e + \delta S_c \\
 soit en intégrant l'expression donnée $S(T,V)$. En utilisant la loi des gaz parfaits, on trouve les deux autres.
 
 
-````{admonition} Fondamental : Lois de Laplace
-:class: attention
+````{important} __Fondamental : Lois de Laplace__
 
 Lors d'une transformation isentropique, un gaz parfait suit les lois de Laplace.
 
@@ -155,8 +149,7 @@ La preuve de ces deux propriétés découle directement de l'expression de l'ent
 
 ### Entropie: Phases condensées
 
-````{admonition} Fondamental : Entropie des phases condensées
-:class: attention
+````{important} __Fondamental : Entropie des phases condensées__
 
 Pour des solides et des fluides peu dilatables et peu compressibles, on peut écrire:
 

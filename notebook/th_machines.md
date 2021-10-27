@@ -16,7 +16,7 @@ kernelspec:
 # Machines thermiques
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Donner le sens des échanges énergétiques pour un moteur ou un récepteur thermique ditherme.
 * Analyser un dispositif concret et le modéliser par une machine cyclique ditherme.
 * Définir un rendement ou une efficacité et la relier aux énergies échangées au cours d'un cucle.

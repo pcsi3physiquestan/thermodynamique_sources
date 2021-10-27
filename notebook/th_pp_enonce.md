@@ -17,8 +17,7 @@ kernelspec:
 
 ## Premier principe: Enoncé
 
-````{admonition} Fondamental : Premier principe: Enoncé
-:class: attention
+````{important} __Fondamental : Premier principe: Enoncé__
 
 Pour tout système fermé, on peut définir une fonction U des variables d'état, extensive, appelée énergie interne, telle que l'énergie totale E soit conservative, c'est-à-dire qu'elle est constante si le système est isolé:
 
@@ -40,8 +39,7 @@ Si l'on part de la définition microscopique de l'énergie mécanique, la conser
 On peut considérer ce principe comme une application particulière du bilan effectué pour une grandeur intensive: on précise que quoiqu'il arrive le terme de création est nul.
 
 
-````{admonition} Fondamental : Enoncé opératoire
-:class: attention
+````{important} __Fondamental : Enoncé opératoire__
 
 Puisque l'énergie totale est conservative, elle ne peut varier que s'il y a des échanges d'énergie. Nous décomposerons les échanges d'énergie en deux types:
 
@@ -56,8 +54,7 @@ Le premier principe s'exprime donc:
 \end{equation}
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 On se place __TOUJOURS en convention RECEPTEUR pour écrire le premier principe__  
 
@@ -65,8 +62,7 @@ On se place __TOUJOURS en convention RECEPTEUR pour écrire le premier principe_
 
 ## Importance de la définition du système
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 IL EST IMPERATIF DE TOUJOURS DEFINIR LE SYSTEME D'ETUDE AVANT DE CHERCHER A APPLIQUER UN THEOREME OU UNE EQUATION (Théorèmes mécaniques, premier principe, équation d'état).
 
@@ -84,8 +80,7 @@ Par contre, les transferts d'énergie dépendent de la transformation considér�
 
 ## Typologie des transformations
 
-````{admonition} Définition : Typopologie
-:class: tip
+````{important} __Définition : Typopologie__
 
 On distingue plusieurs types de transformations. Cette liste n'est pas exhaustive mais ces types de transformations sont à connaître:
 

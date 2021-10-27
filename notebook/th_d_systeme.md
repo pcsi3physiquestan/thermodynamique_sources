@@ -15,8 +15,7 @@ kernelspec:
 ---
 # Système thermodynamique
 
-````{admonition} Définition : Système thermodynamique
-:class: tip
+````{important} __Définition : Système thermodynamique__
 
 Un système thermodynamique est une portion de l'univers que l'on isole par la pensée du reste de l'univers baptisé alors milieu extérieur. Il comporte en général un grand nombre de particules.
 
@@ -28,8 +27,7 @@ Un système thermodynamique n'a pas forcément de frontière matérielle et n'es
 Isoler mentalement ne signifie pas laisser de côté le milieu extérieur. Celui-ci peut en effet être en interaction avec le système thermodynamique.
 
 
-````{admonition} Définition : Tyopologie des systèmes 
-:class: tip
+````{important} __Définition : Tyopologie des systèmes __
 
 On distingue trois types de systèmes suivant les échanges qu'il peut faire avec le milieu extérieur:
 

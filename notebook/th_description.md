@@ -16,7 +16,7 @@ kernelspec:
 # Description d'un système thermodynamique
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Définir l'échelle mésoscopique et en expliquer la nécessité.
 * Connaître quelques ordres de grandeurs du libre parcours moyen.
 * Calculer l'ordre de grandeur d'une vitesse quadratique moyenne

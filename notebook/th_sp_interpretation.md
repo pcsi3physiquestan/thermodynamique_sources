@@ -21,8 +21,7 @@ kernelspec:
 Il s'agit de l'énoncé historique qui a conduit Clausius à élaborer le concept d'entropie.
 
 
-````{admonition} Fondamental : Enoncé historique de Clausius
-:class: attention
+````{important} __Fondamental : Enoncé historique de Clausius__
 
 Considérons deux solides en contact thermique. Le premier est à température $T_f$ et le second à température $T_c > T_f$. Le transfert thermique ne s'effectuer spontanément (sans intervention du milieu extérieur) que du corps chaud vers le corps froid.
 ````
@@ -90,8 +89,7 @@ On a vu que pour un système isolé, l'entropie ne pouvait qu'agmenter. Elle va 
 L'énoncé de Thomson est fondamental pour comprendre les limites des machines thermiques. Là où l'énoncé de Clausius s'intéresse à l'évolution interne d'un système et l'homogénéisation des grandeurs intensives, l'énoncé de Thomson traite de la dissymétrie entre le travail et le transfert thermique échangé.
 
 
-````{admonition} Fondamental : Enoncé de Thomson
-:class: attention
+````{important} __Fondamental : Enoncé de Thomson__
 
 Un système en contact avec une seule source de chaleur (thermostat) ne peut, au cours d'un cycle, que recevoir du travail pour fournir de la chaleur.
 ````

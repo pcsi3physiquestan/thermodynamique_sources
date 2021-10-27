@@ -35,8 +35,7 @@ On considère un gaz parfait de coefficient $\gamma$. Exprimer la variation d'é
 
 ### Cas d'une transformation quasi-statique adiabatique d'un gaz parfait
 
-````{admonition} Fondamental : Lois de Laplace
-:class: attention
+````{important} __Fondamental : Lois de Laplace__
 
 Soit un système assimilable à un gaz parfait subissant une transformation quasistatique et adiabatique. Alors les produits suivants sont constants lors de la transformation:
 
@@ -78,8 +77,7 @@ Comparer la température et le volume de la détente (puis de la compression) ad
 On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
 
 
-```{admonition} Fondamental : 
-:class: attention
+```{important} __Fondamental : __
 
 On retiendra la méthode de tracé ET la comparaison entre la transformation isotherme et la transformation adiabatique.
 ```
@@ -111,8 +109,7 @@ On considère un gaz parfait subissant un cycle composé d'un ensemble de transf
 
 ### Calorimétrie: Position du problème
 
-````{admonition} Définition : Calorimètre
-:class: tip
+````{important} __Définition : Calorimètre__
 
 Un calorimètre est un récipient en général composé d'une paroi extérieure et d'une cuve intérieure. Le tout est fermé par un couvercle permettant d'introduire un agitateur, un thermomètre et une résistance chauffante. La cuve étant séparée de la paroi extérieure par de l'air, le système est relativement bien isolé et on peut négliger le temps d'une expérience les échanges thermiques avec l'extérieur.
 
@@ -120,8 +117,7 @@ En général, l'intérieur de la cuve ne maintient pas un volume contraint sur s
 
 ````
 
-````{admonition} Fondamental : Equation générale
-:class: attention
+````{important} __Fondamental : Equation générale__
 
 Ecrire de manière générale le prermier principe appliqué au système {calorimètre+contenu}.
 ````

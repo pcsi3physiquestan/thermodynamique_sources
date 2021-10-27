@@ -25,8 +25,7 @@ Dans une réfrigérateur, la grandeur utile est la quantité de chaleur prise à
 L'efficacité d'un réfrigérateur correspond donc au rapport entre la quantité de chaleur prise à la source froide et le travail fourni au système $e = \frac{Q_f}{W}$.
 
 
-````{admonition} Fondamental : Efficacité de Carnot
-:class: attention
+````{important} __Fondamental : Efficacité de Carnot__
 
 L'efficacité maximale d'un réfrigérateur ditherme ne dépend que des températures des sources chaudes et froides. Il s'obtient lors d'un cycle réversible et a pour expression:
 
@@ -85,8 +84,7 @@ Dans une pompe à chaleur, la grandeur utile est la quantité de chaleur cédée
 L'efficacité d'une pompe à chaleur correspond donc au rapport entre la quantité de chaleur fournie à la source chaude et le travail fourni au système $ e = \frac{\vert Q_c \vert}{W}$
 
 
-````{admonition} Fondamental : Efficacité de Carnot
-:class: attention
+````{important} __Fondamental : Efficacité de Carnot__
 
 L'efficacité maximale d'une pompe à chaleur ditherme ne dépend que des températures des sources chaudes et froides. Il s'obtient lors d'un cycle réversible et a pour expression:
 
