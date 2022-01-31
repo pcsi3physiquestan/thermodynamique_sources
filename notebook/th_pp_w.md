@@ -17,17 +17,15 @@ kernelspec:
 
 ## Travail: Généralités
 
-_Rappel : Calcul du travail mécanique_  
-Le calcul du travail mécanique s'effectue au moyen des définitions classiques présentées dans le cours de mécanique.
+_Rappel : Calcul du travail mécanique. Le calcul du travail mécanique s'effectue au moyen des définitions classiques présentées dans le cours de mécanique._
 
 Dans le cas (rare au programme) où il s'agit d'une action globale, on pensera bien à calcul le travail de chaque action ponctuelle puis de réaliser la sommation (en général une intégrale- cf. suite).
 
 Dans le cas de force conservative, on peut utiliser l'énergie potentielle mais attention, elle fait partie de l'énergie totale et non de W.
 
 
-````{dropdown} Remarque
+````{dropdown} __Remarque : Action globale surfacique__
 
-__Action globale surfacique__  
 On considère une action globale $\cal A$ regroupant des actions ponctuelles en plusieurs points M d'une surface $\Sigma$ du système. On modélise chaque action ponctuelle par une force $\overrightarrow{d^2F}(M)$ qui s'applique sur la petite surface $\overrightarrow{d^2S}(M)$ autour du point M.
 
 Le travail élémentaire fournit par l'action ponctuelle autour de M pendant un temps dt s'écrit: $\delta^3 W = \overrightarrow{d^2F}(M)\cdot\overrightarrow{dl}(M)$ où M est le déplacement élementaire du point M (et donc de la surface $\overrightarrow{dS}(M)$.
@@ -43,15 +41,14 @@ Le travail __élémentaire__ total fournit par l'action globale s'obtient par in
 \begin{equation}
 \delta W = \iint_{M\in\Sigma} \overrightarrow{d^2 F}(M) \cdot \overrightarrow{dl}(M)
 \end{equation}
-Si nous serons pas amené à calculer une telle intégrale, il faut comprendre le sens des différents infinitésimaux utilisés ici. Pour la force, il s'agit d'un infinitésimal __spatial__ (un double infinitésimal puisque la force est surfacique). C'est ce double infinitésimal qu'on intégre (sur la surface donc).
+Si nous ne serons pas amenés à calculer une telle intégrale, il faut comprendre le sens des différents infinitésimaux utilisés ici. Pour la force, il s'agit d'un infinitésimal __spatial__ (un double infinitésimal puisque la force est surfacique). C'est ce double infinitésimal qu'on intégre (sur la surface donc).
 
 Pour le déplacement élémentaire et le $\delta W$, il s'agit d'un infinitésimal __temporel__: un déplacement et un transfert énergétique durant un instant dt.
 ````
 
 ## Dipôle électrique
 
-_Rappel : Puissance électrique reçue_  
-Soit un dipôle électrique D parcouru par une intensité i et dont la tension à ses bornes est u en convention récepteur. Alors la puissance qu'il reçoit du reste du circuit est $P = ui$.
+_Rappel : Puissance électrique reçue. Soit un dipôle électrique D parcouru par une intensité i et dont la tension à ses bornes est u en convention récepteur. Alors la puissance qu'il reçoit du reste du circuit est $P = ui$._
 
 Si l'on isole le dipôle comme un système thermodynamique, il faut tenir compte de cette puissance mécanique (issue d'actions mécaniques de type électromagnétiques - on l'appelle parfois puissance électrique) quand on utilise le premier principe.
 
@@ -61,14 +58,13 @@ Le "travail électrique" reçu par le dipôle durant un temps fini sera donc:
 W = \int_{t_1}^{t_2}u(t)i(t)dt
 \end{equation}\end{rappel}
 
-````{dropdown} Remarque
+````{dropdown} Remarque :__Cas d'une résistance - Effet Joule__  
 
-__Cas d'une résistance - Effet Joule__  
 Dans le cas d'une résistance, __le travail reçu W__ se calcule en utilisant la loi d'Ohm (la puissance __reçue__ est $P = Ri^2(t)$).
 
 Cette énergie est transformée à l'échelle microscopique de manière désordonnée, c'est __l'effet Joule__. __Une partie__ de cette est énergie va être transmise __par la résistance au système extérieur__ sous forme de transfert thermique Q.
 
-Il est important de comprendre que a priori, __$W \neq Q$__. En effet, une partie de l'énergie reçu par travail électrique peut être conservée par la résistance pour augmenter son énergie interne. L'application du premier principe à la résistance donne bien $\Delta U = W + Q$ avec $\Delta U = C_V \Delta T$ en considérant que la résistance est un solide.
+Il est important de comprendre que _a priori_, __$W \neq Q$__. En effet, une partie de l'énergie reçu par travail électrique peut être conservée par la résistance pour augmenter son énergie interne. L'application du premier principe à la résistance donne bien $\Delta U = W + Q$ avec $\Delta U = C_V \Delta T$ en considérant que la résistance est un solide.
 
 Il est important de bien considérer les échanges pour une résistance: elle __reçoit un travail__ et __fournit un transfert thermique__. Le type de transfert d'énergie à  considérer sera donc différent que l'on considère la résistance à l'intérieur ou à l'extérieur du système étudié.
 ````
@@ -122,10 +118,10 @@ où $dV_{balaye}$ est le volume balayé par la surface durant la durée dt. Il e
 ````
 
 
-__Démonstration__  
-La première formule est la simple expression du travail élémentaire.
-
-La seconde vient du fait que $\overrightarrow{dl} \cdot \overrightarrow{n}$ donne en valeur absolue la hauteur du cylindre de base dS balayé par la surface dS lors de la déformation de sorte que le produit scalaire donne bien le volume balayé $dV_{balaye}(M)$par la surface dS.
+>__Démonstration__  
+>La première formule est la simple expression du travail élémentaire.
+>
+>La seconde vient du fait que $\overrightarrow{dl} \cdot \overrightarrow{n}$ donne en valeur absolue la hauteur du cylindre de base dS balayé par la surface dS lors de la déformation de sorte que le produit scalaire donne bien le volume balayé $dV_{balaye}(M)$par la surface dS.
 
 
 ````{attention}
@@ -156,8 +152,8 @@ Le caractère algébrique du système est relié au gain/à la perte de volume t
 ````
 
 
-__Démonstration__  
-La contrainte normale étant uniforme, on peut la sortir de l'intégrale. Il reste la sommation des volumes balayés par chaque paroi qui correspond effectivement au volume total gagné par le système.
+>__Démonstration__  
+>La contrainte normale étant uniforme, on peut la sortir de l'intégrale. Il reste la sommation des volumes balayés par chaque paroi qui correspond effectivement au volume total gagné par le système.
 
 
 ````{dropdown} Remarque
@@ -188,16 +184,16 @@ où P est la pression (interne) du système.
 ````
 
 
-__Démonstration__  
-Dans le cas d'une évolution quasi-statique, le système étant en quasi-équilibre mécanique à chaque instant, on peut définir la pression P du système __qui est la même dans tout le système.__.
+>__Démonstration__  
+>Dans le cas d'une évolution quasi-statique, le système étant en quasi-équilibre mécanique à chaque instant, on peut définir la pression P du système __qui est la même dans tout le système.__.
+>
+>La force normale qu'exerce alors le système sur le milieu extérieur est alors (en norme) PdS. Le principe des actions réciproques permet alors d'écrire $\sigma_{ext} = P$ (le signe des deux forces réciproques apparaît dans le vecteur directeur de la force, pas dans la contrainte) qui est uniforme.
+>
+>Il vient que le travail élémentaire des contraintes extérieures s'écrit alors $\delta W = - P dV$.
 
-La force normale qu'exerce alors le système sur le milieu extérieur est alors (en norme) PdS. Le principe des actions réciproques permet alors d'écrire $\sigma_{ext} = P$ (le signe des deux forces réciproques apparaît dans le vecteur directeur de la force, pas dans la contrainte) qui est uniforme.
-
-Il vient que le travail élémentaire des contraintes extérieures s'écrit alors $\delta W = - P dV$.
 
 
-
-__Intérêt du cas quasi-statique__  
+__Intérêt du cas quasi-statique :__  
 Le cas d'une transformation quasi-statique présente plusieurs intérêts. Nous en citons deux ici:
 
 * il ramène l'expression du travail à une expression ne dépendant plus que des paramètres d'état du système (on rappelle qu'on ne peut l'utiliser que si l'évolution est quasi-statique) ce qui permet souvent de calculer le travail reçu (calcul d'une intégrale) alors que dans le cas non quasi-statique, le calcul est souvent plus délicat (mais pas impossible - toute dépend des cas).
@@ -259,15 +255,15 @@ Dans une transformation quasi-statique cyclique, le travail fourni passe par des
 ````
 
 
-__Justification__  
+>__Justification__  
 ```{figure} ./images/thermo_watt_cycle.jpg
 :name: fig_275
 :align: center
 
 ```
-
-Si le cycle est parcouru dans le sens horaire, on observe que le temps où le système est récepteur correspond à un travail mécanique $\left\vert W_{recepteur} \right\vert$ plus faible que le travail mécanique $\left\vert W_{moteur} \right\vert$ du temps moteur (aire sous la courbe plus faible): le travail total reçu sera donc négatif:  le système fournit de du travail mécanique, c'est un moteur.
-
-Si le cycle est parcouru dans le sens anti-horaire, on observe que le temps où le système est récepteur correspond à un travail mécanique $\left\vert W_{recepteur} \right\vert$ plus grand que le travail mécanique $\left\vert W_{moteur} \right\vert$ du temps moteur (aire sous la courbe plus grande) : le travail total reçu sera donc positif:  le système reçoit de du travail mécanique, c'est un récepteur.
+>
+>Si le cycle est parcouru dans le sens horaire, on observe que le temps où le système est récepteur correspond à un travail mécanique $\left\vert W_{recepteur} \right\vert$ plus faible que le travail mécanique $\left\vert W_{moteur} \right\vert$ du temps moteur (aire sous la courbe plus faible): le travail total reçu sera donc négatif:  le système fournit de du travail mécanique, c'est un moteur.
+>
+>Si le cycle est parcouru dans le sens anti-horaire, on observe que le temps où le système est récepteur correspond à un travail mécanique $\left\vert W_{recepteur} \right\vert$ plus grand que le travail mécanique $\left\vert W_{moteur} \right\vert$ du temps moteur (aire sous la courbe plus grande) : le travail total reçu sera donc positif:  le système reçoit de du travail mécanique, c'est un récepteur.
 
 

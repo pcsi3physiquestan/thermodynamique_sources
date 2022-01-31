@@ -82,17 +82,14 @@ On considère un gaz suivant le modèle de Van der Waals.
 
 ````
 
-````{dropdown} Démonstration
+````{dropdown} Résolution
 
- 
-
-
-__Interprétation du covolume.__  
-Quand P tend vers l'infini, le terme $V-nb$ tend vers 0, c'est-à-dire que le volume tend vers $nb$. Cela correspond à un cas limite où toute les molécules se touchent. Le terme $nb$, homogène à un volume, correspond au volume minimal occupé par les particules du gaz. Il s'agit d'une correction due à la dimension non négligeable des particules.
-
-Le terme $\frac{n^2 a}{V^2}$ est homogène à une pression (c'est-à-dire une force par unité de volume). Si l'on se place dans le cas relativement courant où le covolume est négligeable devant le volume V, l'équation d'état devient: $P = \frac{nRT}{V} - \frac{n^2 a}{V^2}$.
-
-Autrement dit, pour une température et un volume donné, la pression moléculaire va avoir tendance à diminuer la pression par rapport au modèle du gaz parfait. La pression moléculaire représente en effet les forces d'interaction entre particules, c'est-à-dire les force de Van der Waals (le terme en $n^2/V^2$ représentent bien la distance moyenne entre particule élevée à la puissance 6). Ces forces sont attractives: elles vont avoir tendance à diminuer la "poussée'' du gaz sur la paroi (puisque les particules sont attirées ``vers" le gaz).
+>__Interprétation du covolume.__  
+>Quand P tend vers l'infini, le terme $V-nb$ tend vers 0, c'est-à-dire que le volume tend vers $nb$. Cela correspond à un cas limite où toute les molécules se touchent. Le terme $nb$, homogène à un volume, correspond au volume minimal occupé par les particules du gaz. Il s'agit d'une correction due à la dimension non négligeable des particules.
+>
+>Le terme $\frac{n^2 a}{V^2}$ est homogène à une pression (c'est-à-dire une force par unité de volume). Si l'on se place dans le cas relativement courant où le covolume est négligeable devant le volume V, l'équation d'état devient: $P = \frac{nRT}{V} - \frac{n^2 a}{V^2}$.
+>
+>Autrement dit, pour une température et un volume donné, la pression moléculaire va avoir tendance à diminuer la pression par rapport au modèle du gaz parfait. La pression moléculaire représente en effet les forces d'interaction entre particules, c'est-à-dire les force de Van der Waals (le terme en $n^2/V^2$ représentent bien la distance moyenne entre particule élevée à la puissance 6). Ces forces sont attractives: elles vont avoir tendance à diminuer la "poussée'' du gaz sur la paroi (puisque les particules sont attirées ``vers" le gaz).
 
 ````
 
@@ -112,7 +109,7 @@ Nous allons étudier les gaz par leur comportement à l'échelle microscopique. 
 ````
 
 
-__Interprétation__  
+__Interprétation :__  
 Ces hypothèses ont quelques conséquences sur l'étude des gaz. On rappelle qu'à l'échelle microscopique, on ne peut connaître les caractéristiques de chaque particules mais on peut s'intéresser à la __statistique des différentes grandeurs, notamment des vitesses__.
 
 * l'équilibre thermodynamique impose que la répartition statistique des vitesses $\overrightarrow{v}$ est la même à tout instant: on pourra noter $n(\overrightarrow{v})$ sans se soucier de l'instant $t$.
@@ -140,9 +137,8 @@ A l'échelle microscopique, le modèle du gaz parfait monoatomique est décrit p
 
 ````
 
-````{dropdown} Remarque
+````{dropdown} Remarques sur les hypothèses
 
-__Sur les hypothèses__  
 La troisième hypothèse est propre aux gaz parfait monoatomiques. Son implication directe est que l'énergie cinétique microscopique se réduit à l'énergie cinétique de translation. Pour déterminer l'équation d'état du gaz, cette conséquence a peu d'importance mais elle en aura quand il s'agira de déterminer l'énergie interne du gaz. Pour un gaz parfait composé de molécules, l'hypothèse d'une taille négligeable reste importante pour négliger le covolume.
 
 L'assimilation à des particules ponctuelles a une conséquences gênantes. En effet, si les particules sont ponctuelles, la probabilité qu'elles s'entrechoquent est...  nulle! Or les chocs sont nécessaires pour atteindre le chaos moléculaire (l'isotropie notamment). Il faut donc comprendre pour cette hypothèse: "particules de dimensions négligeables" devant la distance entre particules. Cela revient à dire que __le libre parcours moyen des particules est très grand devant la taille des particules__. Pour un gaz parfait dans les conditions ambiantes, le libre parcours moyen se situe entre 10nm et $1 \rm{\mu m}$.
@@ -180,53 +176,50 @@ On peut obtenir l'expression de la pression cinétique sans ces hypothèses mais
 
 
 ````
-````{dropdown} Démonstration
+````{dropdown} Méthode
 
- 
-
-
-__Pression et force moyenne__  
-Le principe fondamentale de la dynamique appliqué à la particule dans le référentiel de la paroi supposé galiléen s'écrit: $\frac{\rm{d}\overrightarrow{p}}{\rm{dt}} = \overrightarrow{F_{paroi \to particule}} = - \overrightarrow{F_{particule \to paroi}}$. Il vient le calcul de la force moyenne:
-
-\begin{align*}
+>__Pression et force moyenne__  
+Le principe fondamentale de la dynamique appliqué à la particule dans le référentiel de la paroi supposé galiléen s'écrit: $\frac{\rm{d}\overrightarrow{p}}{\rm{dt}} = \overrightarrow{F_{paroi \to particule}} = - \overrightarrow{F_{particule \to paroi}}$. Il vient le calcul >de la force moyenne:
+>
+>\begin{align*}
 \left\langle F_{particule \to paroi} \right\rangle &= \frac{1}{\rm{d}t} \int_{t}^{t+\rm{d}t}F_{particule \to paroi}(t) \rm{d}t\\
 &= - \frac{1}{\rm{d}t} \int_{t}^{t+\rm{d}t}\frac{\rm{d}\overrightarrow{p}}{\rm{\rm{d}t}} \rm{d}t\\
 &= - \frac{1}{\rm{d}t} \int_{\overrightarrow{p}(t)}^{\overrightarrow{p}(t+\rm{d}t)} \rm{d}\overrightarrow{p}\\
 &= - \frac{1}{\rm{d}t} \overrightarrow{\rm{d} p_1}
 \end{align*}
-La force exercée par l'ensemble du gaz s'écrit évidemment $\left\langle \overrightarrow{dF_{gaz \to paroi}} \right\rangle = dN_{choc} \left\langle \overrightarrow{F_{gaz \to particule}} \right\rangle$ soit une pression cinétique:
-
-\begin{align*}
+>La force exercée par l'ensemble du gaz s'écrit évidemment $\left\langle \overrightarrow{dF_{gaz \to paroi}} \right\rangle = dN_{choc} \left\langle \overrightarrow{F_{gaz \to particule}} \right\rangle$ soit une pression cinétique:
+>
+>\begin{align*}
 P &= \frac{\left\langle \overrightarrow{\rm{d}F_{gaz\to paroi}} \right\rangle \cdot \overrightarrow{e_x}}{\rm{d}S}\\
 &= - \frac{dN_{choc}}{\rm{d}t \rm{d}S} \overrightarrow{\rm{d} p_1}\cdot \overrightarrow{e_x}
 \end{align*}
-
-
-__Variation de quantité de mouvement__  
-Remarquons que pour heurter la paroi, la particule doit nécessairement se diriger suivant $+ \overrightarrow{e_x}$. Avec les hypothèses simplifiées, elle aura donc une vitesse $+ v \overrightarrow{e_x}$ avant le choc et une vitesse $- v\overrightarrow{e_x}$ après le choc.
-
-\begin{align*}
+>
+>
+>__Variation de quantité de mouvement__  
+>Remarquons que pour heurter la paroi, la particule doit nécessairement se diriger suivant $+ \overrightarrow{e_x}$. Avec les hypothèses simplifiées, elle aura donc une vitesse $+ v \overrightarrow{e_x}$ avant le choc et une vitesse $- v\overrightarrow{e_x}$ après le choc.
+>
+>\begin{align*}
 \overrightarrow{d p_{1}} &= \overrightarrow{p(t+dt)} - \overrightarrow{p(t)}\\
 &= - 2m v \overrightarrow{e_x}
 \end{align*}
-
-
-__Dénombrement des particules__  
-On veut déterminer $dN_{choc}$. Pour venir taper la surface $dS$ entre $t$ et $t+dt$, les particules, sous l'hypothèse du choc simplifié doivent satisfaire les conditions suivantes:
-
-* avoir à l'instant $t$ la vitesse $\overrightarrow{v} = + v \overrightarrow{e_x}$
-* se trouver dans le cylindre de base $dS$ (sinon elle taperait à côté)
-* être à une distance de la paroi inférieure à $vdt$ (sinon, elle n'atteindrait pas la paroi avant $t+dt$)
-
-
-Les deux dernières conditions impliquent toutes les particules qui se situent dans le cylindre de hauteur $vdt$ appuyé sur la base $dS$ et seulement ces particules viendront heurter la paroi entre $t$ et $t+dt$. A l'équilibre, les grandeurs sont homogènes, et le nombre total de particules contenues dans ce volume s'obtient par une règle de trois (on note $N_V$ le nombre de particules par unités de volume du gaz): $dN_{cylindre} = N_V d \tau_{cylindre} = \frac{N}{V} vdt dS$
-
-La première condition, associée à l'isotropie implique que seules $1/6$ de ces particules vont venir heurter la paroi: $dN_{choc} = \frac{N}{6V} v dt dS = \frac{N}{6V} u dt dS$
-
-
-
-__Calcul de la pression cinétique:__  
-Il vient: $P = \frac{N}{6V} u dt dS \frac{2mu}{dt dS} = \frac{N}{3V} m u^2$
+>
+>
+>__Dénombrement des particules__  
+>On veut déterminer $dN_{choc}$. Pour venir taper la surface $dS$ entre $t$ et $t+dt$, les particules, sous l'hypothèse du choc simplifié doivent satisfaire les conditions suivantes:
+>
+>* avoir à l'instant $t$ la vitesse $\overrightarrow{v} = + v \overrightarrow{e_x}$
+>* se trouver dans le cylindre de base $dS$ (sinon elle taperait à côté)
+>* être à une distance de la paroi inférieure à $vdt$ (sinon, elle n'atteindrait pas la paroi avant $t+dt$)
+>
+>
+>Les deux dernières conditions impliquent toutes les particules qui se situent dans le cylindre de hauteur $vdt$ appuyé sur la base $dS$ et seulement ces particules viendront heurter la paroi entre $t$ et $t+dt$. A l'équilibre, les grandeurs sont homogènes, et le nombre total de particules contenues dans ce volume s'obtient par une règle de trois (on note $N_V$ le nombre de particules par unités de volume du gaz): $dN_{cylindre} = N_V d \tau_{cylindre} = \frac{N}{V} vdt dS$
+>
+>La première condition, associée à l'isotropie implique que seules $1/6$ de ces particules vont venir heurter la paroi: $dN_{choc} = \frac{N}{6V} v dt dS = \frac{N}{6V} u dt dS$
+>
+>
+>
+>__Calcul de la pression cinétique:__  
+>Il vient: $P = \frac{N}{6V} u dt dS \frac{2mu}{dt dS} = \frac{N}{3V} m u^2$
 
 ````
 
@@ -240,8 +233,7 @@ Sous les hypothèses de la théorie cinétique et du gaz parfait, la pression ci
 P = \frac{N}{3V} mu^2
 ````
 
-_Rappel : Température cinétique_  
-On rappelle que la vitesse quadratique moyenne est reliée à la température par $\frac{3}{2}k_B T = \frac{1}{2}m u^2$.
+_Rappel : Température cinétique : On rappelle que la vitesse quadratique moyenne est reliée à la température par $\frac{3}{2}k_B T = \frac{1}{2}m u^2$._
 
 
 ````{important} __Fondamental : Equation d'état des gaz parfait.__
@@ -253,8 +245,7 @@ L'équation d'état d'un gaz parfait monoatomique est: $PV = Nk_B T = nRT$. Elle
 
 ### Energie interne des gaz parfaits: Première loi de Joule
 
-_Rappel :_  
-L'énergie interne est une fonction d'état. Elle peut donc se définir comme une fonction de variables d'état indépendantes par exemple U(T,V,n) (en pratique on écrira en physique U(T,V) car on travaille avec des systèmes fermés où n peut être considéré comme un paramètre).
+_Rappel : L'énergie interne est une fonction d'état. Elle peut donc se définir comme une fonction de variables d'état indépendantes par exemple U(T,V,n) (en pratique on écrira en physique U(T,V) car on travaille avec des systèmes fermés où n peut être considéré comme un paramètre)._
 
 On rappelle que le comportement de l'énergie interne vis-à-vis d'une des variables est caractérisée par une dérivée partielle. On définit en particulier la capacité thermique à volume constante $C_V = {\left ( \frac{\partial U}{\partial T}\right )}_V$.
 
@@ -326,12 +317,12 @@ Pour un gaz parfait: $C_P - C_V = nR$
 ````
 
 
-__Démonstration__  
-La première loi de Joule donne l'expression de $\Delta U = C_V \Delta T$. La variation d'enthalpie s'écrit donc: $\Delta H = \Delta (U + PV) = \Delta U + \Delta (nRT) = (C_V + nR) \Delta T$ donc $C_P = C_V + nR$
+>__Démonstration__  
+>La première loi de Joule donne l'expression de $\Delta U = C_V \Delta T$. La variation d'enthalpie s'écrit donc: $\Delta H = \Delta (U + PV) = \Delta U + \Delta (nRT) = (C_V + nR) \Delta T$ donc $C_P = C_V + nR$
 
 
 
-__Interprétation__  
+__Interprétation :__  
 On rappelle que la capacité thermique à volume constant donne l'énergie à fournir pour augmenter la température de 1K à volume constant et la capacité thermique à pression constante l'énergie à fournir pour augmenter la température de 1K à pression constante. La relation de Mayer montre que $C_P > C_V$: il est donc plus coûteux (en énergie) d'augmenter la température à pression constante que de l'augmenter à volume constante. On pourra en comprendre la raison par la suite.
 
 
@@ -362,15 +353,14 @@ L'énergie interne d'un gaz parfait monoatomique est $U = \frac{3}{2}n R T$. Sa 
 Le coefficient gamma d'un gaz parfait monoatomique est donc $\gamma = \frac{5}{3}$.
 ````
 
-
-__Justification__  
-On rappelle que l'énergie interne est la somme de toutes les composantes "microscopiques" de l'énergie. On distingue l'énergie associée à la translation des molécules, à leur vibration, à leur rotation et enfin l'énergie potentielle d'interaction.
-
-Dans le cas d'un gaz parfait, l'énergie potentielle d'interaction est nulle puisqu'on néglige les interactions à longues distances.
-
-De plus, il n'y a ni vibration, ni rotation pour des atomes (assimilables à des points matériels). La seule compose restante est donc l'énergie cinétique de translation.
-
-On a vu que cette dernière valait en moyenne $\overline{E_C}=\frac{3}{2}k_B T$ soit une énergie cinétique totale pour N particule: $E_C = \frac{3}{2}Nk_B T = \frac{3}{2}n R T$.
+>__Justification :__  
+>On rappelle que l'énergie interne est la somme de toutes les composantes "microscopiques" de l'énergie. On distingue l'énergie associée à la translation des molécules, à leur vibration, à leur rotation et enfin l'énergie potentielle d'interaction.
+>
+>Dans le cas d'un gaz parfait, l'énergie potentielle d'interaction est nulle puisqu'on néglige les interactions à longues distances.
+>
+>De plus, il n'y a ni vibration, ni rotation pour des atomes (assimilables à des points matériels). La seule compose restante est donc l'énergie cinétique de translation.
+>
+>On a vu que cette dernière valait en moyenne $\overline{E_C}=\frac{3}{2}k_B T$ soit une énergie cinétique totale pour N particule: $E_C = \frac{3}{2}Nk_B T = \frac{3}{2}n R T$.
 
 
 ### Cas des gaz parfaits polyatomiques

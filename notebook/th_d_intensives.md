@@ -86,14 +86,14 @@ Ce principe sera démontré pour la température thermodynamique au moyen du sec
 ````
 
 
-__Thermomètre__  
+__Thermomètre :__  
 Ce principe 0 est la base des premiers principes de mesure de la température: on place le système étudié en contact thermique avec une appareil de mesure(un thermomètre) et on atteint __l'équilibre thermique__. La température du thermomètre est alors celle du système. On s'arrange alors pour que l'influence de T sur le thermomètre soit quantifiable.
 
 Par exemple, dans le cas des thermomètres "classiques" il s'agit d'un fluide qui se dilate dans un tube capillaire sous l'effet de la température. On associe à T une hauteur de dilatation.
 
 
 
-__Thermomètres modernes__  
+__Thermomètres modernes :__  
 Si la majorité des thermomètres "grand public" nécessite encore une mise en contact thermique, certains thermomètres modernes peuvent s'en passer en utilisant une mesure par rayonnement thermique.
 
 
@@ -126,7 +126,7 @@ On définit la température absolue à partir d'un point de référence $T_R = 2
 
 ````
 
-````{dropdown} Remarque
+````{dropdown} Remarque : Le point triple
 
 Le choix de la valeur du point triple de l'eau permet de garder la même échelle que pour les Celsius: une variation de $100^\circ$C correspond à une variation de 100K.
 
@@ -139,12 +139,10 @@ La définition précédente est cohérente (admis) avec la définition de la tem
 
 ### Pression: Définition
 
-_Rappel : Définition empirique_  
-On rappelle qu'on peut définir la pression de manière empirique comme la force surfacique exercée par le fluide normalement à la surface de contact. $\overrightarrow{dF} = P \overrightarrow{dS}$
+_Rappel : Définition empirique : On rappelle qu'on peut définir la pression de manière empirique comme la force surfacique exercée par le fluide normalement à la surface de contact. $\overrightarrow{dF} = P \overrightarrow{dS}$_
 
 
-_Rappel : Origine microscopique_  
-On rappelle que la pression peut-être vue comme un transfert de quantité de mouvement par unité de surface et de temps normalement à la surface de contact (on parlera de flux).
+_Rappel : Origine microscopique : On rappelle que la pression peut-être vue comme un transfert de quantité de mouvement par unité de surface et de temps normalement à la surface de contact (on parlera de flux)._
 
 Comme on l'a déjà précisé, cette interprétation sera surtout utilisée pour exprimer la pression d'un fluide sur une paroi. On parle de __pression cinétique__. On peut calculer la force moyenne exercée par une particule sur la paroi puis sommer les forces exercées par l'ensemble des particules qui heurtent la paroi par unité de temps. Un tel calcul sera réalisé dans le cadre de l'étude de la pression cinétique d'un gaz parfait.
 
@@ -165,7 +163,7 @@ Cette dernière définition est relativement abstraite et ne sera pas (peu) util
 
 ````{dropdown} Remarque
 
-__Pression des gaz__  
+__Pression des gaz :__  
 En général, on considérera que la pression des gaz est uniforme. Cela est justifié pour des systèmes de tailles "normales" puisqu'on a vu précédemment que la pression ne variait que faiblement sur des distances de l'ordre du mettre.
 
 Pour les fluides incompressibles, on fera plus attention à la __possible__ nécessité de travailler avec une pression non uniforme.
@@ -189,33 +187,29 @@ On considère un gaz contenu dans une enceinte fermée sur un côté par un pist
 
 
 ````
-````{dropdown} Démonstration
+````{dropdown} Méthode : Utilisation d'un équilibre mécanique
 
- 
-
-__Utilisation d'un équilibre mécanique__  
-
-Un équilibre mécanique est traduit par un théorême de la résultante dynamique à l'équilibre sur la paroi mobile - ici le piston. On travaille dans le référentiel de l'enceinte supposée galliléen.
-
-On note Ox l'axe vertical ascendant et Oy un axe horizontal.
-
-Les actions qui s'exercent sur le piston sont:
-
-* l'action de la paroi. Elle n'a pas de composante suivant le déplacement du piston puisqu'il n'y a pas de frottements.
-* l'action de __l'atmosphère extérieure.__  
-* l'action du gaz
-* l'action de la pesanteur.
-
-
-Cas horizontal. On projette suivant Ox (dirigé du gaz vers l'extérieur):
-
-\begin{align*}
+>Un équilibre mécanique est traduit par un théorême de la résultante dynamique à l'équilibre sur la paroi mobile - ici le piston. On travaille dans le référentiel de l'enceinte supposée galliléen.
+>
+>On note Ox l'axe vertical ascendant et Oy un axe horizontal.
+>
+>Les actions qui s'exercent sur le piston sont:
+>
+>* l'action de la paroi. Elle n'a pas de composante suivant le déplacement du piston puisqu'il n'y a pas de frottements.
+>* l'action de __l'atmosphère extérieure.__  
+>* l'action du gaz
+>* l'action de la pesanteur.
+>
+>
+>Cas horizontal. On projette suivant Ox (dirigé du gaz vers l'extérieur):
+>
+>\begin{align*}
 0 &= PS - P_0 S\\
 P &= P_0
 \end{align*}
-Cas vertical. On projette suivant Oz:
-
-\begin{align*}
+>Cas vertical. On projette suivant Oz:
+>
+>\begin{align*}
 0 &= PS - P_0 S - Mg\\
 P &= P_0 + \frac{Mg}{S}
 \end{align*} 
@@ -231,8 +225,7 @@ Plusieurs erreurs fréquentes sont rencontrées lors de l'établissement de l'é
 ```
 
 
-__Calcul des forces de pression__  
-En thermodynamique, on sera souvent amené à étudier des forces de pressions uniformes sur des surfaces planes. Il n'est pas nécessaire dans ce cas de passer par un calcul intégrale: la force de pression est directement la pression multipliée par la surface (reste à l'orienter correctement).
+_Calcul des forces de pression :_ En thermodynamique, on sera souvent amené à étudier des forces de pressions uniformes sur des surfaces planes. Il n'est pas nécessaire dans ce cas de passer par un calcul intégrale: la force de pression est directement la pression multipliée par la surface (reste à l'orienter correctement).
 
 ````
 
@@ -259,51 +252,48 @@ Considérons une mole d'argon ($M = 39,9 \rm{g.mol^{-1}}$) considérée comme un
 
 ````
 
-````{dropdown} Démonstration
+````{dropdown} Résolution
 
- 
-
-
-__Pression__  
-$P = \frac{nRT}{V} = 10^5 \rm{Pa}$.
-
-
-
-__Distance inter atomique__  
-$N = n N_A = 6 \times 10^{23} \rm{particules}$
-
-On peut estimer le volume moyen libre entourant une particules par $V^* = \frac{V}{nN_A}$. En assimilant ce volume à un cube, la distance moyenne entre deux particules proches se de l'ordre de $d \sim {\left( \frac{V}{nN_A}\right)}^{1/3} = 3 \times 10^{-9} \rm{m}$.
-
-On remarque que cette distance est grande devant la taille des atomes. Dans une modélisation en terme d'interaction entre dipôle électrostatique, on pourrait considérer que cette distance suffit à négliger les interactions à distance entre particules.
-
-
-
-__Vitesse quadratique moyenne__  
-On utilise l'interprétation cinétique de la température $\overline{E_c} = \frac{3}{2}k_B T = 5 \times 10^{-21} J$ (on pourra remarquer que cette énergie est faible devant 1eV).
-
-Pour calculer la vitesse quadratique moyenne, on a besoin de la masse d'un atome d'argon qu'on va déterminer à partir de sa masse molaire: $m = \frac{M}{N_A}$
-
-Il vient une vitesse quadratique moyenne $v = \sqrt{\frac{2 \overline{E_c}N_A}{M}} = 1.2 \times 10^2 \rm{m.s^{-1}}$
-
-On remarquera qu'il s'agit de vitesses très importantes. Ce déplacement n'est pas "visible" car il se fait dans toutes les directions de sorte que la vitesse moyenne de déplacement reste faible.
-
-
-
-__Fréquence des chocs__  
-Pour un volume V, on peut considérer que la taille caractéristique de l'enceinte est $L = V^{1/3}$. La distance parcouru entre deux chocs sur une même paroi par une particule est de l'ordre de 2L et donc le temps deux chocs sur une paroi pour une particule est de l'ordre de $\frac{2L}{v}$. Avec N particules, la fréquence des chocs est donc de l'ordre de $f_{choc} \sim \frac{Nv}{2L} \sim 1.2 * 10^{26} \rm{Hz}$.
-
-On observe qu'il y a donc un très grand nombre de chocs. Pendant une durée infinitésimale (mais associée à une échelle mésoscopique) dt, on pourra considérer que ce nombre reste grand et motive une étude statistique. On travaillera ainsi avec des forces moyennes exercées par les particules.
-
-On pourra remarquer aussi que les fréquences des chocs est bien plus grandes que la fréquence de mesures que peut prendre un capteur de pression. Ce dernier mesure donc aussi une force __moyenne.__  
-
-
-
-__Libre parcours moyen__  
-De l'équation d'état des gaz parfait, il vient que $n^* = \frac{N}{V} = \frac{PN_A}{RT} = \frac{P}{k_B T}$ (on retiendra que $R = N_A k_B$). Il vient $l = \frac{k_B T}{\sqrt{2}\pi d^2 P}$.
-
-Il s'agit donc d'une trajectoire erratique, on parlera de chaos moléculaire. On peut par contre remarquer que cette distance est grande devant la taille des atomes.
-
-$d = \sqrt{\frac{k_B T}{\sqrt{2}\pi P l}} \sim 3 \times 10^{-10} \rm{m}$. Il s'agit donc à peu près de la taille d'un atome. Elle est légèrement plus grande du fait qu'on tient compte de la portée de l'interaction entre particules.
+>__Pression__  
+>$P = \frac{nRT}{V} = 10^5 \rm{Pa}$.
+>
+>
+>
+>__Distance inter atomique__  
+>$N = n N_A = 6 \times 10^{23} \rm{particules}$
+>
+>On peut estimer le volume moyen libre entourant une particules par $V^* = \frac{V}{nN_A}$. En assimilant ce volume à un cube, la distance moyenne entre deux particules proches se de l'ordre de $d \sim {\left( \frac{V}{nN_A}\right)}^{1/3} = 3 \times 10^{-9} \rm{m}$.
+>
+>On remarque que cette distance est grande devant la taille des atomes. Dans une modélisation en terme d'interaction entre dipôle électrostatique, on pourrait considérer que cette distance suffit à négliger les interactions à distance entre particules.
+>
+>
+>
+>__Vitesse quadratique moyenne__  
+>On utilise l'interprétation cinétique de la température $\overline{E_c} = \frac{3}{2}k_B T = 5 \times 10^{-21} J$ (on pourra remarquer que cette énergie est faible devant 1eV).
+>
+>Pour calculer la vitesse quadratique moyenne, on a besoin de la masse d'un atome d'argon qu'on va déterminer à partir de sa masse molaire: $m = \frac{M}{N_A}$
+>
+>Il vient une vitesse quadratique moyenne $v = \sqrt{\frac{2 \overline{E_c}N_A}{M}} = 1.2 \times 10^2 \rm{m.s^{-1}}$
+>
+>On remarquera qu'il s'agit de vitesses très importantes. Ce déplacement n'est pas "visible" car il se fait dans toutes les directions de sorte que la vitesse moyenne de déplacement reste faible.
+>
+>
+>
+>__Fréquence des chocs__  
+>Pour un volume V, on peut considérer que la taille caractéristique de l'enceinte est $L = V^{1/3}$. La distance parcouru entre deux chocs sur une même paroi par une particule est de l'ordre de 2L et donc le temps deux chocs sur une paroi pour une particule est de l'ordre de $\frac{2L}{v}$. Avec N particules, la fréquence des chocs est donc de l'ordre de $f_{choc} \sim \frac{Nv}{2L} \sim 1.2 * 10^{26} \rm{Hz}$.
+>
+>On observe qu'il y a donc un très grand nombre de chocs. Pendant une durée infinitésimale (mais associée à une échelle mésoscopique) dt, on pourra considérer que ce nombre reste grand et motive une étude statistique. On travaillera ainsi avec des forces moyennes exercées par les particules.
+>
+>On pourra remarquer aussi que les fréquences des chocs est bien plus grandes que la fréquence de mesures que peut prendre un capteur de pression. Ce dernier mesure donc aussi une force __moyenne.__  
+>
+>
+>
+>__Libre parcours moyen__  
+>De l'équation d'état des gaz parfait, il vient que $n^* = \frac{N}{V} = \frac{PN_A}{RT} = \frac{P}{k_B T}$ (on retiendra que $R = N_A k_B$). Il vient $l = \frac{k_B T}{\sqrt{2}\pi d^2 P}$.
+>
+>Il s'agit donc d'une trajectoire erratique, on parlera de chaos moléculaire. On peut par contre remarquer que cette distance est grande devant la taille des atomes.
+>
+>$d = \sqrt{\frac{k_B T}{\sqrt{2}\pi P l}} \sim 3 \times 10^{-10} \rm{m}$. Il s'agit donc à peu près de la taille d'un atome. Elle est légèrement plus grande du fait qu'on tient compte de la portée de l'interaction entre particules.
 
 ````
 

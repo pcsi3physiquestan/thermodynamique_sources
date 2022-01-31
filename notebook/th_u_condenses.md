@@ -36,7 +36,7 @@ On considérera que la variation du produit PV étant négligeable, la variation
 
 ````{attention}
 
-Cette fois on n'a pas d'expression des capacités thermiques contrairement au cas des gaz parfaits. A titre d'exemple (à retenir), la capacité thermique de l'eau est $4.18 \rm{kJ.kg^{-1}.mol^{-1}} = 1 \rm{kcal.kg^{-1}.mol^{-1}}$.
+Cette fois on n'a pas d'expression générale des capacités thermiques contrairement au cas des gaz parfaits. A titre d'exemple (à retenir), la capacité thermique de l'eau est $4.18 \rm{kJ.kg^{-1}.mol^{-1}} = 1 \rm{kcal.kg^{-1}.mol^{-1}}$.
 
 ````
 

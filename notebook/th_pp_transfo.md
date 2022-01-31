@@ -53,10 +53,10 @@ où $W_{autre}$ est le travail autre que les forces de pression.
 ````
 
 
-__Démonstration__  
-Le premier principe appliqué au système s'écrit: $\Delta U = W_{pression} + W_{autre} + Q$. Remarquons de plus qu'à l'état initial et à l'état final, la pression du système est $P_0$ puisque le système est en équilibre avec l'extérieur. On a:
-
-\begin{align*}
+>__Démonstration__  
+>Le premier principe appliqué au système s'écrit: $\Delta U = W_{pression} + W_{autre} + Q$. Remarquons de plus qu'à l'état initial et à l'état final, la pression du système est $P_0$ puisque le système est en équilibre avec l'extérieur. On a:
+>
+>\begin{align*}
 W_{pression} &= - \int P_{ext} dV = - P_0 \int dV = - (P_0 V_{final} - P_0 V_{initial})\\
 &= - \Delta PV\\
 \Delta U &= - \Delta PV + W_{autre} + Q\\
@@ -76,9 +76,8 @@ L'analogie précédente a ses limites car le passage du TEC au TEM est valable q
 
 ````
 
-````{dropdown} Remarque
+````{dropdown} Remarque __Interprétation__  
 
-__Interprétation__  
 L'écriture du premier principe avec l'enthalpie pour une transformation monobare entre deux états d'équilibre permet de comprendre le sens donné à la capacité thermique à pression constante comme __l'énergie à fournir pour augmenter la température de 1K à pression constante.__.
 
 En effet, quand on fonctionne à pression constante, celà signifie en général qu'on dispose d'un système fermé par une partie mobile (piston) qui permet d'ajuster le volume du système pour maintenir la pression constante. Cet ajustement se fait "naturellement" au contact d"un atmosphère suffisamment grand pour sa pression soit constante. Mais le travail échangé par la contrainte normale n'est pas maitrîsé. Ce qu'on fournit réellement, c'est le $W_{autre} + Q$.

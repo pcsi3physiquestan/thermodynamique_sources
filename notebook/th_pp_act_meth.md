@@ -47,8 +47,7 @@ T^{\gamma} P^{1-\gamma} = cste
 ````
 
 
-__Démonstration__  
-Réaliser la démonstration de cette propriété par une état d'une transformation infinitésimale. La démonstration doit être sue et maîtrisée.
+>__Démonstration__  : Réaliser la démonstration de cette propriété par une état d'une transformation infinitésimale. La démonstration doit être sue et maîtrisée.
 
 
 ### Diagramme de Watt
@@ -69,15 +68,10 @@ Comparer la température et la pression de la détente (puis de la compression) 
 Comparer la température et le volume de la détente (puis de la compression) adiabatique et isotherme en supposant la pression finale identique. Commenter.
 
 ````
-````{dropdown} Démonstration
-
- 
+>Démonstration : On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
 
 
-On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
-
-
-```{important} __Fondamental : __
+```{important} __Fondamental :__
 
 On retiendra la méthode de tracé ET la comparaison entre la transformation isotherme et la transformation adiabatique.
 ```

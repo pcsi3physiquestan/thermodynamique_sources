@@ -54,22 +54,18 @@ Considérons deux solides A et B. Le corps A est en translation horizontale à l
 
 ````
 ````{dropdown} Démonstration
+>
+>__Premier principe :__  
+>$\Delta E_m + \Delta U = W(\overrightarrow{F}) + Q = W + Q$ avec $Q$ l'échange de chaleur avec le milieu extérieur. Il n'y a pas de variation d'énergie potentielle macroscopique (la seule force extérieure dérivant d'une énergie potentielle et le mouvement est horizontal) et pas de variation d'énergie cinétique (les deux solides ont des vitesses costantes), soit:$\boxed{\Delta U = W + Q}$.
+>
+>
+>
+>__Calcul de Q :__  
+>Il vient immediatement: $Q = \Delta U - W$
+>
 
- 
+```{dropdown} __Remarque sur Q et T__
 
-
-__Premier principe__  
-$\Delta E_m + \Delta U = W(\overrightarrow{F}) + Q = W + Q$ avec $Q$ l'échange de chaleur avec le milieu extérieur. Il n'y a pas de variation d'énergie potentielle macroscopique (la seule force extérieure dérivant d'une énergie potentielle et le mouvement est horizontal) et pas de variation d'énergie cinétique (les deux solides ont des vitesses costantes), soit:$\boxed{\Delta U = W + Q}$.
-
-
-
-__Calcul de Q__  
-Il vient immediatement: $Q = \Delta U - W$
-
-
-```{dropdown} Remarque
-
-__Q et T__  
 Pour un solide, $\Delta U_{Solide} = C_V \Delta T_{Solide}$. L'énergie interne étant extensive, on peut écrire: $\Delta U = \Delta U_A + \Delta U_B = C_{VA} D T_{A} + C_{VB} D T_{B}$ où les indices A et B renvoient à chaque solide. Comme ils sont en équilibre thermique entre eux, $T_A = T_B$, donc: $\Delta U = (C_{VA} + C_{VB}) \Delta T$.
 
 Cas isotherme: A température constante, il vient $\Delta U = 0$ donc $Q = - W < 0$: il y a nécessairement un échange thermique avec l'extérieur. Plus précisément, le système pers de l'énergie sous forme de chaleur vers l'éxterieur. __Ce cas montre bien que la constante de T ne correspond PAS à un transfert thermique nul.__  
