@@ -66,15 +66,14 @@ On considère un gaz parfait subissant des transformations quasistatique avec po
 Comparer la température et la pression de la détente (puis de la compression) adiabatique et isotherme en supposant le volume final identique. Commenter.
 
 Comparer la température et le volume de la détente (puis de la compression) adiabatique et isotherme en supposant la pression finale identique. Commenter.
-
+````
 ````
 >On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
-````
-
 
 ```{important}
 On retiendra la méthode de tracé ET la comparaison entre la transformation isotherme et la transformation adiabatique.
 ```
+````
 
 ### Application au cycle
 
