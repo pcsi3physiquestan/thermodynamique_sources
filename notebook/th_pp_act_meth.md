@@ -68,14 +68,13 @@ Comparer la température et la pression de la détente (puis de la compression) 
 Comparer la température et le volume de la détente (puis de la compression) adiabatique et isotherme en supposant la pression finale identique. Commenter.
 
 ````
->Démonstration : On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
+>On pourra aussi étudier le cas d'un refroidissement/échauffement isochore et d'une détente/compression isobare et commenter la redondance.
+````
 
 
-```{important} __Fondamental :__
-
+```{important}
 On retiendra la méthode de tracé ET la comparaison entre la transformation isotherme et la transformation adiabatique.
 ```
-````
 
 ### Application au cycle
 
