@@ -63,7 +63,7 @@ Soit le dispositif de la figure suivante. Les parois et le piston sont calorifug
 
 1. On ouvre la fenêtre. Décrire qualitativement ce qui se passe suivant la taille de l'enceinte B. En déduire l'existence d'un volume critique de B: $V_C$ que l'on ne pas de calculer pour l'instant.
 1. On suppose $V_B < V_C$.
-    1.   On appelle $V_1$ le volume final occupé par le gaz. Déterminer le travail reçu par le gaz.
+    1.   On appelle $V_1$ le volume final occupé par le gaz. Déterminer le travail reçu par le gaz en supposant le piston sans passe..
     1.   Déterminer l'état final du gaz $(P_1, V_1, T_1)$ en fonction de $P_0, V_A$ et $V_B$.
     1.   Calculer l'entropie créée. Conclure. Quelle est la cause de la création d'entropie?
     1.   Déterminer $V_C$. Effectuer l'application numérique.

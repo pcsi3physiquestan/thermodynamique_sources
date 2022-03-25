@@ -50,7 +50,7 @@ Prouvons pour la grandeur molaire:
 
 \begin{align*}
 Y_m &= \frac{Y}{n_T} = \frac{Y_l + Y_g}{n_T} + \frac{n_l Y_{ml} + n_g Y_{mg}}{n_T}\\
-&= x_l Y_{ml} + x_g Y_{mg}
+&= X_{ml} Y_{ml} + X_{mg} Y_{mg}
 \end{align*}
 
 ### Théorème des moments
@@ -285,7 +285,7 @@ __Bilan entropique__
 
 La transformation est un changement d'état (partiel) à pression extérieure constante et à température extérieure constante. On suppose que la pression du système ne varie pas de sorte que sa température reste à 273K. On va considérer que les états initiaux et finaux sont des états d'équilibre (on a soustrait le système du contact du thermostat).
 
-La variation d'entropie ne dépend pas du chemin. Elle s'écrit $\Delta S = m_{fondue} \Delta h_f(T_{fus})$.
+La variation d'entropie ne dépend pas du chemin. Elle s'écrit $\Delta S = m_{fondue} \frac{\Delta h_f(T_{fus})}{T_{fus}}$.
 
 La transformation se fait au contact d'un thermostat à $T_0$, l'entropie échangée s'écrit donc $S_{ech} = \frac{Q}{T_0} = \frac{m_{fondue}\Delta h}{T_0}$ (la dernière expression vient de l'hypothèse d'une transformation monobare entre deux états d'équilibre).
 
