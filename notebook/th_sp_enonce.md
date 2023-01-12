@@ -1,7 +1,6 @@
 ---
 jupytext:
-  encoding: '# -*- coding: utf-8 end
-jupytext:
+  encoding: '# -*- coding: utf-8 -*-'
   formats: ipynb,md:myst
   split_at_heading: true
   text_representation:

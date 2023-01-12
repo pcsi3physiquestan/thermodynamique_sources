@@ -27,7 +27,7 @@ chapters:
       - file: notebook/th_d_td
   - file: notebook/th_premier_pcp
     sections:
-    - file: notebook/th_pp_contxt
+    - file: notebook/th_pp_ctxt
       sections:
       - file: notebook/th_pp_intro
       - file: notebook/th_pp_enonce
