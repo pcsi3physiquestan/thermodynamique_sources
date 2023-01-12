@@ -20,7 +20,7 @@ kernelspec:
 ````{admonition} Exercice 
 :class: attention
 
-Un réfrigérateur à absorption est une machine frigorifique tritherme sans échange de travail avec l'extérieur. L'énergie est fournie sous forme thermique et à haute température à un bouilleur à $T_0$. Le condenseur est en contact thermique avec le milieu extérieur de température $T_1 < T_0$. L'évaporateur est en contact thermique avec la source de température $T_2 < T_1$. L'énergie est prelevé à la source froide au niveau de l'évaporateur. Définir et calculer l'efficacité frigorifique maximale, fonction des trois températures $T_0, T_1$ et $T_2$.
+Un réfrigérateur à absorption est une machine frigorifique tritherme sans échange de travail avec l'extérieur. L'énergie est fournie sous forme thermique et à haute température par un bouilleur à $T_0$. Le condenseur est en contact thermique avec le milieu extérieur de température $T_1 < T_0$. L'évaporateur est en contact thermique avec la source de température $T_2 < T_1$. L'énergie est prelevé à la source froide au niveau de l'évaporateur. Définir et calculer l'efficacité frigorifique maximale, fonction des trois températures $T_0, T_1$ et $T_2$.
 
 ````
 
@@ -62,3 +62,22 @@ Dans les deux cas, on suppose que toute l'énergie thermique $Q$ obtenue par com
 
 ````
 
+## Cycle de Rankine moteur
+
+On considère le cycle suivant subi par du fréon (toutes les transformations sont réversibles).
+
+1. Depuis un état de liquide non saturé à la température $T_A$ et pression $P_A$, on réalise une échauffement isobare jusqu'à saturation (la température est alors $T_S$) puis une vaporisation complète isobare et isotherme.
+2. Le fluide subit ensuite une détente adiabatique jusqu'à une température $T_C$ où il est dans un état diphasé.
+3. La vapeur restante est ensuite condensée totalement de manière isobare et isotherme.
+4. Le fluide revient à son état initiale par une compression adiabatique.
+
+On connait:
+* La capacité thermique massique du liquide supposée indépendante de la température: $c_l$
+* Les enthalpies massiques de vaporisation à $T_S$ ($\Delta h (T_S)$) et $T_C$ ($\Delta h (T_C)$).
+* La capacité thermique massique du gaz supposée indépendante de la température: $c_g$. On supposera que le gaz suit la deuxième loi de Juole.
+
+1. Représenter le cycle dans un diagramme (T,s) en notant que $T_A - T_C \ll T_C$. On supposera par la suite $T_A \approx T_C$
+2. Déterminer le transfert thermique massique reçu par le fluide caloporteur durant la première transformation en fonction de $c_l, T_C, T_S$ et $\Delta h(T_S)$.
+3. Déterminer la fraction massique de gaz $x_g$ restant après la détente adiabatique en fonction de $c_g, T_S, T_C$ et $\Delta h(T_C)$
+4. Déterminer le transfert thermique massique reçu par le fluide caloporteur durant la troisième transformation en fonction de $\Delta h(T_C)$ et $x_g$
+5. En déduire le travail total reçu par le fluide durant le cycle puis le rendement du moteur ainsi réalisé.

@@ -17,13 +17,13 @@ kernelspec:
 
 _Les phases condensées sont les phases non liquides et solides. Elles sont en général très peu compressibles, de sorte qu'on puisse considérer que leur volume (système fermé) et leur masse volumique ne varie pas._
 
-## Cas des fluides incompressibles
+## Cas des fluides incompressibles indilatable
 
-_Rappel : Fluide incompressible et indilatable_  
-Un liquide est dit incompressible si son volume ne varie pas, quelque soit les changements de pression ou de température qu'il subit.
+* Un liquide est dit incompressible si son volume ne varie pas, quelque soit les changements de pressionqu'il subit.
+* Un liquide est dit indilatable si son volume ne varie pas, quelque soit les changements de température qu'il subit.
 
 
-````{important} __Fondamental : Energie interne et enthalpie d'un fluide incompressible et indilatable.__
+````{important} __Energie interne et enthalpie d'un fluide incompressible et indilatable.__
 
 L'énergie interne et l'enthalpie d'un fluide incompressible ne varient qu'avec la température (puisque le volume ne varie pas et que la pression n'a pas d'effets important sur le volume).
 
@@ -34,15 +34,15 @@ L'énergie interne et l'enthalpie d'un fluide incompressible ne varient qu'avec 
 On considérera que la variation du produit PV étant négligeable, la variation d'enthalpie et d'énergie interne est alors identique, soit $C_V \approx C_P$ (qu'on notera souvent C et qu'on appellera capacité thermique sans précision).
 ````
 
-````{attention}
+````{important} __Capacité thermique massique de l'eau__
 
-Cette fois on n'a pas d'expression générale des capacités thermiques contrairement au cas des gaz parfaits. A titre d'exemple (à retenir), la capacité thermique de l'eau est $4.18 \rm{kJ.kg^{-1}.mol^{-1}} = 1 \rm{kcal.kg^{-1}.mol^{-1}}$.
+La capacité thermique de l'eau liquide est $4.18 \rm{kJ.kg^{-1}.mol^{-1}} = 1 \rm{kcal.kg^{-1}.mol^{-1}}$.
 
 ````
 
 ## Solides
 
-````{important} __Fondamental : Energie et enthalpie des solides__
+````{important} __Energie et enthalpie des solides__
 
 Comme pour les liquides incompressibles, on peut négliger les variations de volumes et du produit PV de sorte que la variation d'énergie interne et d'enthalpie seront à peu près égale et ne dépendront que de la variation de température.
 
@@ -52,12 +52,3 @@ Comme pour les liquides incompressibles, on peut négliger les variations de vol
 \end{align*}
 A nouveau $C_V \approx C_P \approx C$.
 ````
-
-````{admonition} Compléments : Loi de Dulong-Petit (pas à connaître)
-:class: hint, dropdown
-
-En 1819, P. Dulong et A. Petit ont mis en évidence empiriquement que la __capacité thermique molaires__ des solides étaient sensiblement la même pour tous les solides et valaient 3R. En réalité, ceci n'est vrai qu'à partir d'une certaine température qui dépend du solide considéré. Pour les métaux, la température à partir de laquelle cette loi est valide est inférieure aux températures ordinaires.
-
-Comment l'interpréter? On peut modéliser un métal comme un ensemble d'atomes fixes. Ceux-ci fonctionne comme des oscillateurs harmoniques spatiaux pour lesquels on a trois termes quadratiques qui correspondent aux énergies cinétiques des trois directions de l'oscillateur, soit trois degrés de liberté et trois degrés de libertés correspondant aux énergies potentielles élastiques de l'oscillateur dans les trois directions. En appliquant le théorème d'équipartition de l'énergie, on obtient le résultat mesuré expérimentalement. Comme pour les gaz, des températures trop basses vont "geler'' certains degrés de liberté (en réalité, on va ``geler" certains oscillateurs) d'où un écart à la loi de Dulong-Petit aux basses températures.
-````
-

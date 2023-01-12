@@ -15,7 +15,7 @@ kernelspec:
 ---
 # Machines thermiques
 
-````{admonition} Objectifs
+````{admonition} Compétences
 :class: tip
 * Donner le sens des échanges énergétiques pour un moteur ou un récepteur thermique ditherme.
 * Analyser un dispositif concret et le modéliser par une machine cyclique ditherme.

@@ -13,8 +13,4 @@ kernelspec:
   language: python
   name: python3
 ---
-# Systèmes thermodynamiques usuels
-
-Nous allons étudier deux types de systèmes :
-* les gaz, et notamment la modèle du gaz parfait
-* les phases condensées peu compressibles et peu dilatables qui permettront de décrire la plupart des liquides et des solides.
+# Connaître le contexte

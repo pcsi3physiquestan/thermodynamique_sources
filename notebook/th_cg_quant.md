@@ -142,18 +142,18 @@ Par exemple l'entropie massique de vaporisation est: $\Delta s_{vap}(T_{sat}) = 
 
 Considérons un changement d'état monotherme à température T dont l'enthalpie massique de changement d'état est $\Delta h_{ch}$. L'entropie massique de changement d'état $\Delta s_{ch}$ est:
 
-\begin{equation}
+$$
 \Delta s = \frac{\Delta h}{T}
-\end{equation}
+$$
 ````
 
 
 __Démonstration__  
 Considérons le changement d'état complet et réversible. Le second principe s'écrit: $\Delta S = S_e + S_c = \frac{Q}{T}$. La transformation est isotherme sur un changement d'état, elle est donc aussi isobare\footnote{Cet argument est crucial lorsqu'on étudie des changements d'état, il sera très souvent utilisé.}. Le premier principe s'écrit donc: $Q = \Delta H$. Ramené aux grandeurs massiques, il vient:
 
-\begin{equation}
+$$
 \Delta s = \frac{\Delta h}{T}
-\end{equation}
+$$
 Cette relation ne fait intervenir que des variables et fonctions d'état. __Elle ne dépend donc pas du chemin parcouru.__ On peut la généraliser à tout changement d'état monotherme complet.
 
 

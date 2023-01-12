@@ -17,60 +17,41 @@ kernelspec:
 
 ## Premier principe: Enoncé
 
-````{important} __Fondamental : Premier principe: Enoncé__
+````{sidebar} Remarques
+* Le premier principe est énoncé pour de __systèmes fermés__.
+* Dans ce principe, on affirme aussi que l'énergie interne est une __fonction d'état__ (elle ne dépend que des variables d'état). Ceci n'a rien d'évident a priori.
+* Dans ce principe, on affirme aussi que l'énergie interne est __extensive__.
+* Si l'on part de la définition microscopique de l'énergie mécanique, la conservation de l'énergie totale se comprend rapidement (mais attention, ce n'est pas une démonstration).
+* On peut considérer ce principe comme une application particulière du bilan effectué pour une grandeur intensive: on précise que quoiqu'il arrive le terme de création est nul.
+````
+````{important} __Premier principe: Enoncé__
 
 Pour tout système fermé, on peut définir une fonction U des variables d'état, extensive, appelée énergie interne, telle que l'énergie totale E soit conservative, c'est-à-dire qu'elle est constante si le système est isolé:
 
-\begin{equation}
+$$
 E_{TOT} = E_{c,macro} + E_{p,macro} + U
-\end{equation}
+$$
 ````
 
-
-__Remarques__  
-Le premier principe est énoncé pour de __systèmes fermés__.
-
-Dans ce principe, on affirme aussi que l'énergie interne est une __fonction d'état__ (elle ne dépend que des variables d'état). Ceci n'a rien d'évident a priori.
-
-Dans ce principe, on affirme aussi que l'énergie interne est __extensive__.
-
-Si l'on part de la définition microscopique de l'énergie mécanique, la conservation de l'énergie totale se comprend rapidement (mais attention, ce n'est pas une démonstration).
-
-On peut considérer ce principe comme une application particulière du bilan effectué pour une grandeur intensive: on précise que quoiqu'il arrive le terme de création est nul.
-
-
-````{important} __Fondamental : Enoncé opératoire__
+````{margin}
+On se place __TOUJOURS en convention RECEPTEUR pour écrire le premier principe__  
+````
+````{important} __Enoncé opératoire__
 
 Puisque l'énergie totale est conservative, elle ne peut varier que s'il y a des échanges d'énergie. Nous décomposerons les échanges d'énergie en deux types:
 
-* le travail W: c'est le travail défini en mécanique auquel peuvent venir s'ajouter d'autres types de travail: électrique ou électromagnétique. Ils ont tous la qualité de dépendre de grandeur macroscopique extérieures.
-* le transfert thermique Q: c'est un terme supplémentaire.
+* le __travail W__: c'est le travail défini en mécanique auquel peuvent venir s'ajouter d'autres types de travail: électrique ou électromagnétique. Ils ont tous la qualité de dépendre de grandeur macroscopique extérieures.
+* le __transfert thermique Q__: c'est un terme supplémentaire associée à des échanges désordonnées.
 
 
 Le premier principe s'exprime donc: 
 
-\begin{equation}
+$$
 \Delta E_{TOT} = W +Q
-\end{equation}
+$$
 ````
 
-````{attention}
-
-On se place __TOUJOURS en convention RECEPTEUR pour écrire le premier principe__  
-
-````
-
-## Importance de la définition du système
-
-````{attention}
-
-IL EST IMPERATIF DE TOUJOURS DEFINIR LE SYSTEME D'ETUDE AVANT DE CHERCHER A APPLIQUER UN THEOREME OU UNE EQUATION (Théorèmes mécaniques, premier principe, équation d'état).
-
-````
-
-## Notations
-
-````{dropdown} Remarque
+````{topic} Remarque
 
 __Notations__  
 Les variables d'état et les fonctions d'état ne dépendant que de l'état d'équilibre du système: leurs variations sont donc des différentielles totales. On écrira donc $dU$ pour une variation infinitésimale et $\Delta U$ pour une variation globale. __De même, si l'on cherche des relations entre des fonctions d'état, on peut le faire en étudiant des transformations particulières. Ces expressions seront généralisées à toute transformation.__  
@@ -78,9 +59,19 @@ Les variables d'état et les fonctions d'état ne dépendant que de l'état d'é
 Par contre, les transferts d'énergie dépendent de la transformation considérée. Ce sont des formes différentielles. On doit les calculer sur la transformation réelle. On écrira donc $\delta W$ et $\delta Q$ pour une variation infinitésimale et W et Q pour une variation globale. __Ecrire dW, dQ ou $\Delta W$, $\Delta Q$ est une faute grave.__  
 ````
 
+## Importance de la définition du système
+
+````{attention}
+IL EST IMPERATIF DE TOUJOURS DEFINIR LE SYSTEME D'ETUDE AVANT DE CHERCHER A APPLIQUER UN THEOREME OU UNE EQUATION (Théorèmes mécaniques, premier principe, équation d'état).
+````
+
+
 ## Typologie des transformations
 
-````{important} __Définition : Typopologie__
+````{margin}
+Une transformation réversibles est toujours quasi-statiques. La réciproque est fausse (ex: piston huilé: les frottements fluides rendent la transformation irréversible, même si on déplace le fluide très lentement).
+````
+````{important} __Typopologie__
 
 On distingue plusieurs types de transformations. Cette liste n'est pas exhaustive mais ces types de transformations sont à connaître:
 
@@ -92,12 +83,6 @@ On distingue plusieurs types de transformations. Cette liste n'est pas exhaustiv
 * __transformation adiabatique__: pas de transfert thermique: $Q=0$.
 * __transformation quasi-statique__: transformation qui passe par une succession continue d'états d'équilibre. Cela implique une transformation relativement lente.
 * __transformation réversible__: une transformation est réversible si on peut "inverser le cours du temps" et revenir en arrière en repassant exactement par les mêmes états d'équilibre sans violer aucune loi/principe physique.
-
-
 ````
 
-````{dropdown} Remarque
-
-Une transformation réversibles est toujours quasi-statiques. La réciproque est fausse (ex: piston huilé: les frottements fluides rendent la transformation irréversible, même si on déplace le fluide très lentement).
-````
 

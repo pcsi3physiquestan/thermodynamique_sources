@@ -15,13 +15,9 @@ kernelspec:
 ---
 # Echelles d'étude
 
-## Echelles de description d'un système
+## Echelles de description d'un système (en ligne)
 
-
-Le fait qu'un système thermodynamique contiennent un grand nombre de particule conduit à distinguer 3 niveaux de description du système. Nous verrons que l'on peut quelque fois définir les grandeurs physiques à ces différents niveaux. Le tout est que ce soit cohérent.
-
-
-````{important} __Définition : Echelle microscopique__
+````{topic} __Echelle microscopique__
 
 L'échelle microscopique est l'échelle des particules élémentaires qui forment le système. Pour des molécules, elle sera de l'ordre de $10^{-10}\rm{m}$. A cette échelle, la matière est discontinue.
 
@@ -33,7 +29,7 @@ Ajoutons que d'un point de vue physique, les variations sont très faibles et tr
 
 ````
 
-````{important} __Définition : Echelle macroscopique__
+````{topic} __Echelle macroscopique__
 
 L'échelle macroscopique est notre échelle. Celle à laquelle, nous pouvons percevoir des détails, des objets, des variations...  A cette échelle, tout milieu constitué d'une seule phase paraît continu.
 
@@ -43,7 +39,7 @@ Son principal inconvénient: on perd nécessairement de l'information. Nous verr
 
 ````
 
-````{important} __Définition : Echelle mésoscopique__
+````{topic} __Echelle mésoscopique__
 
 L'échelle mésoscopique est une échelle intermédiaire. Elle correspond à un petit volume $d \tau$. Celui-ci est assez grand pour contenir un nombre important de particules et qu'on puisse considérer la matière comme continue et assez petit pour que les grandeurs macroscopiques observables (température, pression, densité, concentration... ) y soient uniformes. Pour cela, il faut que $d \tau$ soit grand devant le volume moyen occupé par une particule et petit devant les variations des grandeurs intensives.
 
@@ -52,38 +48,4 @@ Son principale intérêt: d'un point de vue mathématique, l'échelle mésoscopi
 D'un point de vue physique, on peut considérer que l'échelle mésoscopique correspond à une échelle plus faible (mais de l'ordre) des capteurs puisque les grandeurs mesurées à la surface d'un capteur font remonter une seule valeur et donc une impression d'homogénéité.
 
 ````
-
-## Exemple: Gradient de température
-
-````{admonition} Exercice 
-:class: attention
-
-On considère un tube de longueur $L$ dont les parois extérieures ne conduisent pas la chaleur. A l'intérieur du tube se trouve un gaz qui conduit la chaleur. On impose aux extrémités du tube des températures $T_1$ et $T_2$. On repère la position d'une section du tube par sa côté x sur un axe Ox horizontal. 
-
-On peut montrer que la température dans le tube en régime permanent suit la loi: $T(x) = T_1 + \frac{T_2-T_1}{L}x$ (la preuve sera vue en deuxième année).
-
-Estimer un ordre de grandeur de taille pour chaque échelle. On supposera que L = 1m
-
-````
->Démonstration
->
-> 
->
->
->__Tailles caractéristiques des différentes échelles__  
->* Echelle macroscopique: C'est le système entier. Sa taille caractéristique est donc $\Delta x = L$
->* Echelle microscopique: La taille caractéristique est la distance intermoléculaire: $\delta x \approx 10^{-9} \rm{m}$
->* Echelle mésoscopique: On ne définit pas de taille précise, mais pour qu'elle ait un sens, il faut pouvoir choisir une taille caractéristiques telle que $dx \gg \delta x$ et $dx \ll \Delta x$. Ici c'est possible car les ordres de grandeur entre les deux sont grands.
->
->La taille des capteurs de température étant de l'ordre du millimètre (moins pour certains capteurs très précis), une échelle de l'ordre de quelques micromètres est acceptable.
->
->
->On peut généraliser cela: la définition de l'échelle mésoscopique est valable tant que les variations des grandeurs macroscopiques sont très supérieures aux dimensions de l'échelle microscopique. Dans toute les études que nous ferons par la suite, y compris en électromagnétisme, nous supposerons cette condition toujours vérifiée.
->
->
->
->En général, nous étudions un système thermodynamique à une échelle macroscopique soit:
->
->* en le découpant en de multiples morceaux mésoscopiques: cela revient à étudier des fonctions (scalaires en thermodynamiques, scalaires ET vectorielles en électromagnétisme) de l'espace qu'on supposera continues, la plupart du temps dérivables et qui décrivent les grandeurs macroscopiques du système. Nous l'avons déjà fait en statique des fluides
->* soit en le prenant dans son ensemble. Cela est possible lorsque les grandeurs macroscopiques (les __variables d'état)__ sont homogène. Le système est alors __à l'équilibre__.
 

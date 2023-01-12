@@ -15,6 +15,18 @@ kernelspec:
 ---
 # Second principe: Exercice d'application
 
+## Identité thermodynamique
+
+````{admonition} Exercice
+:class: attention
+On définit les grandeurs énergétiques suivantes:
+* Enthalpie : H = U + PV
+* Energie libre : F = U - TS
+* Enthalpie libre : G = F + PV
+
+Exprimer les différentielles de ces trois grandeurs $dH(S,P)$, $dF(T,V)$, $dG(T,P)$ respectivement en fonction des différentielles $(dS, dP)$; $(dT, dV)$; $(dT, dP)$
+````
+
 ## Chauffage d'une masse d'eau
 
 ````{admonition} Exercice 
@@ -56,8 +68,24 @@ Soit $n$ moles d'un gaz parfait diatomique dont le rapport des capacités calori
     * $k=0$?
     * $k$ infini?
     * $k = \gamma$?
+````
+
+## Vaporisation réversible ou irréversible
+
+````{admonition} Exercice 
+:class: attention
+
+On vaporise une masse de m=1g d'eau liquide des deux manières suivantes:
+
+* la masse m et enfermée à $100 \rm{^{\circ}C}$ sous la pression atmosphérique, dans un cylindre fermé par un piston. Par déplacement lent du piston, on augmente le volume à température constante et on s'arrête dès que toute l'eau est vaporisée. Le volume est alors égal à $V=1,67\rm{L}$.
+* on introduit rapidement la masse m d'eau liquide initialement à $100 \rm{^{\circ}C}$ dans un récipient fermé de même température, de volume $1,67\rm{L}$ initialement vide. La température finale est à $100 \rm{^{\circ}C}$.
 
 
+1. Calculer $Q_{thermostat}$ et les variations d'énergie interne, d'enthalpie et d'entropie de l'eau dans chaque cas.
+1. Calculer l'entropie crée lors du processus irréversible.
+
+
+Données numériques: Enthalpie massique de vaporisation de l'eau est $L_V = 2.25 \times 10^6 \rm{J.kg^{-1}}$.
 
 ````
 

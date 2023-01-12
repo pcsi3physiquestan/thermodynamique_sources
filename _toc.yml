@@ -4,50 +4,64 @@ root: thermodynamique
 chapters:
   - file: notebook/th_description
     sections:
-    - file: notebook/th_d_systeme
-    - file: notebook/th_d_echelle
-    - file: notebook/th_d_variables
-    - file: notebook/th_d_equilibre
-    - file: notebook/th_d_extensives
-    - file: notebook/th_d_intensives
-    - file: notebook/th_d_ex_app
-    - file: notebook/th_d_entropie_stat
-  - file: notebook/th_usuels
-    sections:
-    - file: notebook/th_u_gaz
-    - file: notebook/th_u_condenses
-    - file: notebook/th_u_ex_app
+    - file: notebook/th_d_contxt
+      sections:
+      - file: notebook/th_d_systeme
+      - file: notebook/th_d_echelle
+      - file: notebook/th_d_variables
+        sections:
+        - file: notebook/th_d_equilibre
+        - file: notebook/th_d_extensives
+        - file: notebook/th_d_intensives
+      - file: notebook/th_usuels
+        sections:
+        - file: notebook/th_u_gaz
+        - file: notebook/th_u_condenses
+      - file: notebook/th_chgt_etat
+    - file: notebook/th_d_ex
+      sections:
+      - file: notebook/th_d_methodes
+      - file: notebook/th_d_activite
+      - file: notebook/th_d_entropie_stat
+      - file: notebook/th_d_ex_app
+      - file: notebook/th_d_td
   - file: notebook/th_premier_pcp
     sections:
-    - file: notebook/th_pp_intro
-    - file: notebook/th_pp_enonce
-    - file: notebook/th_pp_q
-    - file: notebook/th_pp_w
-    - file: notebook/th_pp_transfo
-    - file: notebook/th_pp_compression
-    - file: notebook/th_pp_act_meth
-    - file: notebook/th_pp_ex_app
-    - file: notebook/th_pp_td
+    - file: notebook/th_d_contxt
+      sections:
+      - file: notebook/th_pp_intro
+      - file: notebook/th_pp_enonce
+      - file: notebook/th_pp_q
+      - file: notebook/th_pp_w
+    - file: notebook/th_pp_ex
+      sections:
+      - file: notebook/th_pp_transfo
+      - file: notebook/th_pp_act_meth
+      - file: notebook/th_pp_compression
+      - file: notebook/th_pp_ex_app
+      - file: notebook/th_pp_td
   - file: notebook/th_second_pcp
     sections:
-    - file: notebook/th_sp_intro
-    - file: notebook/th_sp_enonce
-    - file: notebook/th_sp_expression
-    - file: notebook/th_sp_interpretation
-    - file: notebook/th_sp_exemples
-    - file: notebook/th_sp_ex_app
-    - file: notebook/th_sp_td
-  - file: notebook/th_chgt_etat
+    - file: notebook/th_sp_contxt
+      sections:
+      - file: notebook/th_sp_intro
+      - file: notebook/th_sp_enonce
+      - file: notebook/th_sp_expression
+      - file: notebook/th_sp_interpretation
     sections:
-    - file: notebook/th_cg_obs
-    - file: notebook/th_cg_quant
-    - file: notebook/th_cg_td
+    - file: notebook/th_sp_ex
+      - file: notebook/th_sp_exemples
+      - file: notebook/th_sp_ex_app
+      - file: notebook/th_sp_td
   - file: notebook/th_machines
     sections:
-    - file: notebook/th_mc_gene
-    - file: notebook/th_mc_moteur
-    - file: notebook/th_mc_recepteur
-    - file: notebook/th_mc_methodes
-    - file: notebook/th_mc_ex_app
-    - file: notebook/th_mc_td
-
+    - file: notebook/th_machines_contxt
+      sections:
+      - file: notebook/th_mc_gene
+      - file: notebook/th_mc_moteur
+      - file: notebook/th_mc_recepteur
+    - file: notebook/th_machines_ex
+      sections:
+      - file: notebook/th_mc_methodes
+      - file: notebook/th_mc_ex_app
+      - file: notebook/th_mc_td
