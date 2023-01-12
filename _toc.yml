@@ -48,8 +48,8 @@ chapters:
       - file: notebook/th_sp_enonce
       - file: notebook/th_sp_expression
       - file: notebook/th_sp_interpretation
-    sections:
     - file: notebook/th_sp_ex
+      sections:
       - file: notebook/th_sp_exemples
       - file: notebook/th_sp_ex_app
       - file: notebook/th_sp_td
