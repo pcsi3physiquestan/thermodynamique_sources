@@ -69,7 +69,7 @@ On considère un corps pur à une pression P et une température T de changement
 * Reprendre la question précédente pour les phases solides et liquides d'un corps pur à un couple (P,T) de solidification.
 
 ````
-````{admonition} Correction
+````{topic} Correction
 >__Cas d'un gaz parfait__  
 >Si l'on augmente la température, cela signifie qu'on augmente l'énergie cinétique des molécules. On peut donc considérer qualitativement qu'on augmente le désordre (on augmente la gamme de vitesses accessibles) et donc l'entropie. C'est ce qu'on observe avec l'expression de S(T,V).
 >

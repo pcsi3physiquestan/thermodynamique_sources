@@ -74,10 +74,14 @@ On considère le cycle suivant subi par du fréon (toutes les transformations so
 On connait:
 * La capacité thermique massique du liquide supposée indépendante de la température: $c_l$
 * Les enthalpies massiques de vaporisation à $T_S$ ($\Delta h (T_S)$) et $T_C$ ($\Delta h (T_C)$).
-* La capacité thermique massique du gaz supposée indépendante de la température: $c_g$. On supposera que le gaz suit la deuxième loi de Juole.
+* La capacité thermique massique du gaz supposée indépendante de la température: $c_g$. On supposera que le gaz suit la deuxième loi de Joule.
 
+
+````{admonition} Exercice
+:class: attention
 1. Représenter le cycle dans un diagramme (T,s) en notant que $T_A - T_C \ll T_C$. On supposera par la suite $T_A \approx T_C$
 2. Déterminer le transfert thermique massique reçu par le fluide caloporteur durant la première transformation en fonction de $c_l, T_C, T_S$ et $\Delta h(T_S)$.
 3. Déterminer la fraction massique de gaz $x_g$ restant après la détente adiabatique en fonction de $c_g, T_S, T_C$ et $\Delta h(T_C)$
 4. Déterminer le transfert thermique massique reçu par le fluide caloporteur durant la troisième transformation en fonction de $\Delta h(T_C)$ et $x_g$
 5. En déduire le travail total reçu par le fluide durant le cycle puis le rendement du moteur ainsi réalisé.
+````

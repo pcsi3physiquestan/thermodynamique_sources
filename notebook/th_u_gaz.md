@@ -185,8 +185,9 @@ P &= \frac{\left\langle \overrightarrow{\rm{d}F_{gaz\to paroi}} \right\rangle \c
 
 Sous les hypothèses de la théorie cinétique et du gaz parfait, la pression cinétique est reliée à la vitesse quadratique moyenne:
 
-\begin{equation}
+$$
 P = \frac{N}{3V} mu^2
+$$
 ````
 
 _Rappel : Température cinétique : On rappelle que la vitesse quadratique moyenne est reliée à la température par $\frac{3}{2}k_B T = \frac{1}{2}m u^2$._
