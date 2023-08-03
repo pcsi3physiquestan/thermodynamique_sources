@@ -26,6 +26,8 @@ On définit les grandeurs énergétiques suivantes:
 
 Exprimer les différentielles de ces trois grandeurs $dH(S,P)$, $dF(T,V)$, $dG(T,P)$ respectivement en fonction des différentielles $(dS, dP)$; $(dT, dV)$; $(dT, dP)$
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Identité thermodynamique._
 
 ## Chauffage d'une masse d'eau
 
@@ -41,6 +43,11 @@ Exprimer les différentielles de ces trois grandeurs $dH(S,P)$, $dF(T,V)$, $dG(T
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'une phase condensée._
+* _$\Longrightarrow$ Entropie échangée._
+* _$\Longrightarrow$ Second principe._
+* _$\Longrightarrow$ Irréversibilité._
 
 ## Bilan entropique du chauffage d'un morceau de cuivre
 
@@ -50,8 +57,12 @@ Exprimer les différentielles de ces trois grandeurs $dH(S,P)$, $dF(T,V)$, $dG(T
 1. On chauffe à l'aide d'un thermostat à la température $T_S = 600 \rm{K}$ une mole de cuivre solide pour faire passer sa température de $293\rm{K}$ à $320\rm{K}$. On néglige la variation du volume et on admet que sa capacité thermique est $3R$. Effectuer un bilan entropique de ce chauffage. Conclure.
 1. On fait passer un courant électrique de $5.0\rm{A}$ dans un conducteur ohmique de $44 \rm{\Omega}$ pendant $1h$. La puissance fournie par effet Joule sert maintenir une enceinte à la température de $293\rm{K}$ et fait passer la température de la résistance chauffante de $293\rm{K}$ à $313\rm{K}$. On admet que la capacité thermique de la résistance chauffante est de $C = 5,0 \rm{J.K-1}$. Effectuer le bilan entropique de l'opération. Conclure.
 
-
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'une phase condensée._
+* _$\Longrightarrow$ Entropie échangée._
+* _$\Longrightarrow$ Second principe._
+* _$\Longrightarrow$ Irréversibilité._
 
 ## Transformations polytropiques d'un GP diatomique
 
@@ -69,6 +80,11 @@ Soit $n$ moles d'un gaz parfait diatomique dont le rapport des capacités calori
     * $k$ infini?
     * $k = \gamma$?
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'un gaz parfait._
+* _$\Longrightarrow$ Entropie échangée._
+* _$\Longrightarrow$ Second principe._
+* _$\Longrightarrow$ Irréversibilité._
 
 ## Vaporisation réversible ou irréversible
 
@@ -88,4 +104,8 @@ On vaporise une masse de m=1g d'eau liquide des deux manières suivantes:
 Données numériques: Enthalpie massique de vaporisation de l'eau est $L_V = 2.25 \times 10^6 \rm{J.kg^{-1}}$.
 
 ````
-
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Cor^ps pur diphasé._
+* _$\Longrightarrow$ Entropie de changement d'état._
+* _$\Longrightarrow$ Enthalpie de changement d'état._
+* _$\Longrightarrow$ Volume massique d'une phase condensée et d'un gaz._

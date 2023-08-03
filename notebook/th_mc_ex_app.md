@@ -23,6 +23,8 @@ kernelspec:
 Montrer qu'un moteur ditherme ne peut que fournir de la chaleur à la source froide et en prendre à la source chaude.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Machine thermique : Bilan global._
 
 ## Cycle de Joule
 On considère une machine thermique constituée d'une mole de gaz parfait (coefficient $\gamma$) subissant le cycle suivant:
@@ -38,3 +40,11 @@ Toutes les transformations sont supposées réversibles et $k=10$.
 1. Exprimer les transferts thermiques reçus par le gaz sur chaque transformation. Commenter le signe des chaque transfert thermique.
 1. En déduire le travail total W sur le cycle.
 1. Déterminer le rendement (si c'est un moteur) ou l'efficacité de la pompe à chaleur (si c'est un récepteur).
+
+
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait._
+* _$\Longrightarrow$ Cycle._
+* _$\Longrightarrow$ Rendement et efficacité._
+* _$\Longrightarrow$ Diagramme de Watt._
+* _$\Longrightarrow$ Lois de Laplace._

@@ -31,6 +31,14 @@ Le gaz subit une compression isotherme (température $T_0 = 273\rm{K}$) de $P_0 
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait_
+* _$\Longrightarrow$ Travail des forces de pression._
+* _$\Longrightarrow$ Type de transformation._
+* _$\Longrightarrow$ Lois de Laplace._
+* _$\Longrightarrow$ Diagramme de Watt._
+* _$\Longrightarrow$ Energie interne._
+* _$\Longrightarrow$ Premier principe._
 
 ## Etude d'un cycle
 
@@ -51,6 +59,14 @@ On impose à une mole de gaz parfait les transformations réversibles suivantes 
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait_
+* _$\Longrightarrow$ Travail des forces de pression._
+* _$\Longrightarrow$ Type de transformation._
+* _$\Longrightarrow$ Diagramme de Watt._
+* _$\Longrightarrow$ Energie interne._
+* _$\Longrightarrow$ Premier principe._
+* _$\Longrightarrow$ Cycle._
 
 ## Chauffage d'une double enceinte
 
@@ -72,6 +88,15 @@ On étudie le système représenté ci-après supposé dans un état d'équilibr
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait_
+* _$\Longrightarrow$ Travail des forces de pression._
+* _$\Longrightarrow$ Type de transformation._
+* _$\Longrightarrow$ Diagramme de Watt._
+* _$\Longrightarrow$ Energie interne._
+* _$\Longrightarrow$ Premier principe._
+* _$\Longrightarrow$ Cycle._
+* _$\Longrightarrow$ Thermostat._
 
 ## Enceinte et ressort
 
@@ -89,6 +114,12 @@ On considère le dispositif de la figure ci-parès: un piston calorifugé est mo
 1. Le piston est coincé par une butée et le ressort n'est pas tendu, la pression $P_0 = 0,214 \rm{bar}$ et la température $T_0 = 290 \rm{K}$. Calculer $V_0$.
 1. On supprime la butée. Le système évolue vers un nouvel état d'équilibre. Déterminer l'allongement $x_F$ du ressort, le volume $V_F$ occupé par le gaz, sa température $T_F$ et sa pression finale $P_F$.
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait_
+* _$\Longrightarrow$ Type de transformation._
+* _$\Longrightarrow$ Diagramme de Watt._
+* _$\Longrightarrow$ Energie interne._
+* _$\Longrightarrow$ Premier principe._
 
 
 ## Surfusion
@@ -103,6 +134,11 @@ Donner la température finale du solide pour $\theta = 25 \rm{^{\circ}C}$ et $\t
 On donne $L_{fusion} = 63 \rm{J.g^{-1}}; C_S = 1.03 \rm{J.K^{-1}.g^{-1}}; C_L = 1.17 \rm{J.K^{-1}.g^{-1}}$.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasé_
+* _$\Longrightarrow$ Enthalpie de changement d'état._
+* _$\Longrightarrow$ Adiabatique._
+* _$\Longrightarrow$ Hyptohèse sur l'état final._
 
 ## Fonte de glace
 
@@ -114,6 +150,10 @@ Un cylindre de $1 \rm{dm^{2}}$ de section est fermé par un piston situé à $50
 Données: chaleur latente de fusion de la glace à $1 \rm{bar}$: $L_f = 334.4 \rm{J.g^{-1}}$; 76cm de mercure = 101325 Pa.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasé_
+* _$\Longrightarrow$ Enthalpie de changement d'état._
+
 ## Mélange eau-gaz
 
 ````{admonition} Exercice 
@@ -129,3 +169,9 @@ On étudie les transformations thermodynamiques d'un gaz parfait auquel on a ajo
 Données: $M_{H2O} = 18 \rm{g.mol^{-1}}; p_{sat,A}=3.70 \times 10^3 \rm{Pa}; L_{vap} = 2.45 \times 10^{6} \rm{J.kg^{-1}}; C_{Vm,gaz} = C_{Vm,H20 gaz} = 5/2 R$
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasé_
+* _$\Longrightarrow$ Enthalpie de changement d'état._
+* _$\Longrightarrow$ Pression de vapeur saturante._
+* _$\Longrightarrow$ Gaz parfait._
+

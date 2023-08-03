@@ -32,6 +32,10 @@ On considère deux compartiments de volume $V_1$ et $V_2$, l'ensemble est mainte
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Théorie cinétique des gaz._
+* _$\Longrightarrow$ Pression cinétique._
+* _$\Longrightarrow$ Gaz parfait_
 
 ## Etude de diagramme de changement d'état
 
@@ -55,6 +59,11 @@ Diagramme des frigoristes de l'eau
     * la fraction massique de gaz formé en utilisant le théorème des moments.
 4. L'allure des isothermes pour la phase liquide est-elle celle attendue ?
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasés._
+* _$\Longrightarrow$ Diagramme de Clapeyron._
+* _$\Longrightarrow$ Théorème des moments_
+* _$\Longrightarrow$ Enthalpie de changement d'état_
 
 ````{admonition} Diagramme (T-s)
 :class: attention
@@ -76,6 +85,11 @@ Diagramme entropique de l'eau
     * l'entropie massique de la partie liquide et de la partie gazeuse
     * la fraction massique de liquide formé en utilisant le théorème des moments.
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasés._
+* _$\Longrightarrow$ Diagramme de Clapeyron._
+* _$\Longrightarrow$ Théorème des moments_
+* _$\Longrightarrow$ Entropie de changement d'état_
 
 ````{important} __A retenir__
 

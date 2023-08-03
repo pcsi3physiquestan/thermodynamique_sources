@@ -27,6 +27,11 @@ Un gaz parfait occupe un volume $V_1 = 10 \rm{L}$ à une température $T_1 = 273
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'un gaz parfait._
+* _$\Longrightarrow$ Adiabatique._
+* _$\Longrightarrow$ Second principe._
+* _$\Longrightarrow$ Irréversibilité._
 
 ## Sens d'un cycle monotherme
 
@@ -47,6 +52,13 @@ Une mole de gaz parfait ($\gamma=1,4$) subit la succession de transformations su
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'un gaz parfait._
+* _$\Longrightarrow$ Adiabatique._
+* _$\Longrightarrow$ Entropie créée._
+* _$\Longrightarrow$ Irréversibilité._
+* _$\Longrightarrow$ Cycle._
+* _$\Longrightarrow$ Lois de Laplace._
 
 ## Détente irréversible d'un gaz parfait
 
@@ -73,5 +85,9 @@ Soit le dispositif de la figure suivante. Les parois et le piston sont calorifug
     1.   Calculer l'entropie créée quand $V_B < V_{C1}$.
 
 
-
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Entropie d'un gaz parfait._
+* _$\Longrightarrow$ Adiabatique._
+* _$\Longrightarrow$ Thermostat._
+* _$\Longrightarrow$ Irréversibilité._

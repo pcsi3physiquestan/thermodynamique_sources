@@ -30,6 +30,9 @@ Soit une mole de gaz subissant une compression isotherme réversible de $(P_0, T
 On supposera que seule les contraintes normales (pression extérieure) agissent sur le gaz.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait_
+* _$\Longrightarrow$ Travail des forces de pression._
 
 ## Calorimétrie
 
@@ -51,3 +54,8 @@ Données numériques:
 
 
 ````
+
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Calorimétrie_
+* _$\Longrightarrow$ Capacité thermique des phases condensées._
+* _$\Longrightarrow$ Travail reçu electriquement._

@@ -23,6 +23,10 @@ kernelspec:
 Un réfrigérateur à absorption est une machine frigorifique tritherme sans échange de travail avec l'extérieur. L'énergie est fournie sous forme thermique et à haute température par un bouilleur à $T_0$. Le condenseur est en contact thermique avec le milieu extérieur de température $T_1 < T_0$. L'évaporateur est en contact thermique avec la source de température $T_2 < T_1$. L'énergie est prelevé à la source froide au niveau de l'évaporateur. Définir et calculer l'efficacité frigorifique maximale, fonction des trois températures $T_0, T_1$ et $T_2$.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Machine thermique : Bilan global._
+* _$\Longrightarrow$ Rendement et efficacité._
+
 
 ## Pompe à chaleur
 
@@ -36,6 +40,10 @@ Un fluide décrit des cycles réversibles du type pompe à chaleur entre une sou
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Machine thermique : Bilan global._
+* _$\Longrightarrow$ Rendement et efficacité._
+
 
 ## Optimisation du chauffage d'un local
 
@@ -61,6 +69,9 @@ Dans les deux cas, on suppose que toute l'énergie thermique $Q$ obtenue par com
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Machine thermique : Bilan global._
+* _$\Longrightarrow$ Rendement et efficacité._
 
 ## Cycle de Rankine moteur
 
@@ -85,3 +96,9 @@ On connait:
 4. Déterminer le transfert thermique massique reçu par le fluide caloporteur durant la troisième transformation en fonction de $\Delta h(T_C)$ et $x_g$
 5. En déduire le travail total reçu par le fluide durant le cycle puis le rendement du moteur ainsi réalisé.
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Coprs pur diphasé._
+* _$\Longrightarrow$ Cycle._
+* _$\Longrightarrow$ Rendement et efficacité._
+* _$\Longrightarrow$ Diagramme de Clapeyron._
+* _$\Longrightarrow$ Enthalpie de changement d'état._

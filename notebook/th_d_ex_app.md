@@ -30,6 +30,11 @@ Un récipient cubique contient sous la pression $P_0 = 1.013 \times 10^5 \rm{Pa}
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait._
+* _$\Longrightarrow$ Température cinétique._
+* _$\Longrightarrow$ Vitesse quadratique moyenne._
+
 
 ````{admonition} Compressibilité du mercure 
 :class: attention
@@ -39,11 +44,19 @@ Le coefficient de compressibilité isotherme du mercure ne varie pas dans le dom
 1. Etablir l'expression de la différentielle de la pression dP à température constante en fonction de $\chi_T$, de la masse volumique $\rho$ et de $d \rho$ (Indice: on pourra considérer un système fermé).
 1. A la surface du mercure, $\rho = \rho_0$ et $P = P_0$. En déduire l'équation donnant $\frac{\rho}{\rho_0}$ en fonction de ,$\chi_T, P$ et $P_0$. Calculer la variation relative de masse volumique lorsque la pression varie de $50 \rm{bar}$.
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Coefficient de compressibilité._
+* _$\Longrightarrow$ Calcul différentiel._
+
 
 ````{admonition} Capacités thermiques d'un gaz parfait
 :class: attention
 Démontrer les expressions des capacités thermiques __molaires__ d'un gaz parfait en fonction de $R$ et $\gamma$.
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Gaz parfait._
+* _$\Longrightarrow$ Capacités thermiques_
+
 
 ````{admonition} Etude d'un diagramme de Clapeyron
 :class: attention
@@ -62,3 +75,7 @@ Diagramme de Clapeyron de l'eau
     1. Estimer graphiquement le volume massique de la partie gazeuse. Quelle hypothèse peut-on faire sur le rapport volume massique du liquide sur volume massique du gaz ?
     2. On a mesurée une fraction massique de gaz $x_g = 0.6$. Situer l'état correspondant sur le diagramme de Clapeyron
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Corps pur diphasés._
+* _$\Longrightarrow$ Diagramme de Clapeyron._
+* _$\Longrightarrow$ Théorème des moments_
