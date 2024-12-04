@@ -14,6 +14,12 @@ kernelspec:
   name: python3
 ---
 # Moteurs thermiques
+```{figure} ./images/qr_code/qr_machines_moteur.png
+:name: qr_machines_moteur
+:width: 150px
+:align: right
+:target: th_mc_moteur.html#exemples-en-ligne
+```
 
 ## Généralités
 

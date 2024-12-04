@@ -14,6 +14,12 @@ kernelspec:
   name: python3
 ---
 # Introduction (en ligne)
+```{figure} ./images/qr_code/qr_thermo_pp.png
+:name: qr_thermo_pp
+:width: 150px
+:align: right
+:target: th_sp_intro.html
+```
 
 ## Grandeur conservative
 

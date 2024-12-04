@@ -14,6 +14,12 @@ kernelspec:
   name: python3
 ---
 # Méthodes
+```{figure} ./images/qr_code/qr_thermo_methodes.png
+:name: qr_thermo_methodes
+:width: 150px
+:align: right
+:target: th_d_methodes.html
+```
 
 ## Variables d'état
 ````{admonition} Utilisation des grandeurs intensives 

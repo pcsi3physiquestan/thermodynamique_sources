@@ -16,6 +16,12 @@ kernelspec:
 # Echelles d'étude
 
 ## Echelles de description d'un système (en ligne)
+```{figure} ./images/qr_code/qr_thermo_echelles.png
+:name: qr_thermo_echelles
+:width: 150px
+:align: right
+:target: th_d_echelle.html
+```
 
 ````{topic} __Echelle microscopique__
 
