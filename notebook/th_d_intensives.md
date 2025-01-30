@@ -52,7 +52,7 @@ $k_B$ est la constante de Boltzmann.
 ```{figure} ./images/qr_code/qr_thermo_temp.png
 :name: qr_thermo_temp
 :width: 150px
-:align: right
+:align: center
 :target: th_d_intensives.html#proprietes-et-mesures-en-ligne
 ```
 

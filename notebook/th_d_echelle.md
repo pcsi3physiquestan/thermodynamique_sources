@@ -19,7 +19,7 @@ kernelspec:
 ```{figure} ./images/qr_code/qr_thermo_echelles.png
 :name: qr_thermo_echelles
 :width: 150px
-:align: right
+:align: center
 :target: th_d_echelle.html
 ```
 

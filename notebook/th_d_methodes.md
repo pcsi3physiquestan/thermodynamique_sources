@@ -17,7 +17,7 @@ kernelspec:
 ```{figure} ./images/qr_code/qr_thermo_methodes.png
 :name: qr_thermo_methodes
 :width: 150px
-:align: right
+:align: center
 :target: th_d_methodes.html
 ```
 

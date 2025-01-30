@@ -17,7 +17,7 @@ kernelspec:
 ```{figure} ./images/qr_code/qr_machines_moteur.png
 :name: qr_machines_moteur
 :width: 150px
-:align: right
+:align: center
 :target: th_mc_moteur.html#exemples-en-ligne
 ```
 

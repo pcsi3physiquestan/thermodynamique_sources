@@ -17,7 +17,7 @@ kernelspec:
 ```{figure} ./images/qr_code/qr_thermo_pp.png
 :name: qr_thermo_pp
 :width: 150px
-:align: right
+:align: center
 :target: th_sp_intro.html
 ```
 
