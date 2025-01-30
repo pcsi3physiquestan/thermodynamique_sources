@@ -34,7 +34,7 @@ Ce bilan est général à toutes les grandeurs d'état extensives et notamment l
 ```{figure} ./images/qr_code/qr_thermo_u.png
 :name: qr_thermo_u
 :width: 150px
-:align: right
+:align: center
 :target: th_d_echelle.html#energie-interne-en-ligne
 ```
 Le premier principe - que nous verrons par la suite - définit une grandeur appelée énergie interne U qui est une __grandeur d'état extensive.__
