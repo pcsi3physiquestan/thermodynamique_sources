@@ -233,7 +233,7 @@ Par contre, la largeur du palier diminue quand la température augmente: cela si
 
 ````{important} __Théorème des moments__
 
-Soit, sur un diagramme de Clapeyron, un point B du palier à une température T et les points I et F du même palier placées respectivement sur la courbe d'ébullition et la courbe de rosée. On peut alors écrire: $x_l BF = x_g BI$ où BF et BI correspondent aux longueurs des deux segments.
+Soit, sur un diagramme de Clapeyron, un point B du palier à une température T et les points I et F du même palier placées respectivement sur la courbe d'ébullition et la courbe de rosée. On peut alors écrire: $x_l BI = x_g BF$ où BF et BI correspondent aux longueurs des deux segments.
 
 ```{figure} ./images/thermo_chap_6_diag_pv_liqvap.jpg
 :name: fig_289
@@ -250,8 +250,8 @@ On retiendra que cette preuve __permet aussi d'obtenir les fractions massiques__
 On a $n_T = n_l + n_g \Longrightarrow 1 = x_l + x_g$. De plus: $v = x_l v_l + x_g v_g$ par extensivité du volume. Soit:
 
 \begin{align*}
-v & = x_l (v_l - v_g) + v_g \Longrightarrow x_l = \frac{v_g - v}{v_g - v_l} = \frac{MB}{EB}\\
-v & = x_g (v_g - v_l) + v_l \Longrightarrow x_g = \frac{v - v_l}{v_g - v_l} = \frac{ME}{EB}
+v & = x_l (v_l - v_g) + v_g \Longrightarrow x_l = \frac{v_g - v}{v_g - v_l} = \frac{BF}{IF}\\
+v & = x_g (v_g - v_l) + v_l \Longrightarrow x_g = \frac{v - v_l}{v_g - v_l} = \frac{BI}{IF}
 \end{align*}
 En divisant les deux expressions, on retrouve le théorème des moments.
 ````
