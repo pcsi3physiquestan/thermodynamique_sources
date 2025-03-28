@@ -43,7 +43,7 @@ Pour tout système thermodynamique fermé, la variation d'entropie $\Delta S$ du
 dS &= \delta S_{ech} + \delta S_{c}
 \end{align*}
 
-avec $S_c \leq 0$ et $\delta S_c \leq 0$.
+avec $S_c \geq 0$ et $\delta S_c \geq 0$.
 ````
 
 ## Entropie créée et transformations réversibles
